@@ -1,0 +1,9 @@
+park,month,time_of_day,region,weather,temp_c,species
+Yellowstone,7,dawn,north,sunny,12.5,bison
+Yellowstone,7,dusk,south,cloudy,10.0,wolf
+Glacier,8,day,east,sunny,15.0,grizzly_bear
+Grand Teton,6,dawn,west,rainy,9.5,moose
+Olympic,9,day,north,cloudy,14.0,black_bear
+Mount Rainier,7,dusk,south,sunny,11.0,mountain_goat
+
+

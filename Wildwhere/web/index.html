@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>WildWhere 2.0</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 24px; max-width: 800px; }
+    header { margin-bottom: 16px; }
+    label { display:block; margin-top:10px; font-weight:600; }
+    input, select, button { padding:8px; font-size:14px; }
+    button { margin-top:14px; cursor:pointer; }
+    .row { display:flex; gap:12px; flex-wrap:wrap; }
+    .row > div { flex:1 1 180px; min-width: 180px; }
+    pre { background:#f6f6f6; padding:12px; overflow:auto; border-radius:8px; }
+    .result { margin-top:18px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>WildWhere 2.0 — Wildlife Prediction</h1>
+    <p>Enter your trip context and get likely species.</p>
+  </header>
+
+  <div class="row">
+    <div>
+      <label for="park">Park</label>
+      <select id="park">
+        <option>Yellowstone</option>
+        <option>Glacier</option>
+        <option>Grand Teton</option>
+        <option>Olympic</option>
+        <option>Mount Rainier</option>
+      </select>
+    </div>
+    <div>
+      <label for="month">Month (1–12)</label>
+      <input id="month" type="number" min="1" max="12" value="7" />
+    </div>
+    <div>
+      <label for="time_of_day">Time of day</label>
+      <select id="time_of_day">
+        <option>dawn</option>
+        <option>day</option>
+        <option>dusk</option>
+        <option>night</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="row">
+    <div>
+      <label for="region">Region (optional)</label>
+      <input id="region" placeholder="north / south / east / west" />
+    </div>
+    <div>
+      <label for="weather">Weather (optional)</label>
+      <input id="weather" placeholder="sunny / cloudy / rainy" />
+    </div>
+    <div>
+      <label for="temp_c">Temp °C (optional)</label>
+      <input id="temp_c" type="number" step="0.1" placeholder="12.5" />
+    </div>
+    <div>
+      <label for="top_n">Top N</label>
+      <input id="top_n" type="number" min="1" max="20" value="5" />
+    </div>
+  </div>
+
+  <button id="predictBtn">Predict</button>
+
+  <div class="result">
+    <h3>Results</h3>
+    <pre id="output">—</pre>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
