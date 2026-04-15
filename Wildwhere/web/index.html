@@ -5,76 +5,183 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>WildWhere 2.0</title>
   <style>
-    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 24px; max-width: 800px; }
-    header { margin-bottom: 16px; }
-    label { display:block; margin-top:10px; font-weight:600; }
-    input, select, button { padding:8px; font-size:14px; }
-    button { margin-top:14px; cursor:pointer; }
-    .row { display:flex; gap:12px; flex-wrap:wrap; }
-    .row > div { flex:1 1 180px; min-width: 180px; }
-    pre { background:#f6f6f6; padding:12px; overflow:auto; border-radius:8px; }
-    .result { margin-top:18px; }
+    :root {
+      color-scheme: light;
+      --ink: #17302b;
+      --muted: #567369;
+      --surface: #f5f1e7;
+      --panel: #fffdf8;
+      --line: #d7d0c3;
+      --accent: #2f6f61;
+      --accent-soft: #dfeee8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: Georgia, "Times New Roman", serif;
+      margin: 0;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at top left, rgba(47, 111, 97, 0.2), transparent 28%),
+        linear-gradient(180deg, #fbf8f0 0%, #efe7d7 100%);
+      min-height: 100vh;
+    }
+    main { width: min(980px, calc(100% - 32px)); margin: 0 auto; padding: 32px 0 48px; }
+    header {
+      background: rgba(255, 253, 248, 0.9);
+      border: 1px solid rgba(215, 208, 195, 0.7);
+      border-radius: 28px;
+      padding: 28px;
+      box-shadow: 0 16px 40px rgba(23, 48, 43, 0.08);
+      margin-bottom: 18px;
+    }
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font: 600 12px/1.2 Arial, sans-serif;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+    h1 { margin: 16px 0 10px; font-size: clamp(2rem, 4vw, 3.4rem); line-height: 0.95; }
+    p { color: var(--muted); max-width: 56ch; font: 400 1rem/1.6 Arial, sans-serif; }
+    .layout { display: grid; gap: 18px; }
+    .panel {
+      background: rgba(255, 253, 248, 0.94);
+      border: 1px solid rgba(215, 208, 195, 0.8);
+      border-radius: 24px;
+      padding: 22px;
+      box-shadow: 0 14px 36px rgba(23, 48, 43, 0.06);
+    }
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 16px;
+      font: 500 0.9rem/1.4 Arial, sans-serif;
+      color: var(--muted);
+    }
+    label { display: block; margin-top: 12px; font: 700 0.93rem/1.3 Arial, sans-serif; }
+    input, select, button {
+      width: 100%;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      padding: 12px 14px;
+      font: 500 0.98rem/1.3 Arial, sans-serif;
+      background: var(--panel);
+      color: var(--ink);
+    }
+    input:focus, select:focus, button:focus {
+      outline: 3px solid rgba(47, 111, 97, 0.18);
+      border-color: var(--accent);
+    }
+    button {
+      margin-top: 18px;
+      background: linear-gradient(135deg, #2f6f61, #498979);
+      color: white;
+      font-weight: 700;
+      cursor: pointer;
+      box-shadow: 0 14px 26px rgba(47, 111, 97, 0.22);
+    }
+    button:hover { transform: translateY(-1px); }
+    .row { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; }
+    pre {
+      background: #17302b;
+      color: #eff7f3;
+      padding: 14px;
+      overflow: auto;
+      border-radius: 18px;
+      min-height: 160px;
+      margin: 0;
+      font: 500 0.92rem/1.55 "SFMono-Regular", Consolas, monospace;
+    }
+    .status {
+      margin-top: 14px;
+      padding: 10px 12px;
+      border-radius: 14px;
+      background: #eef5f1;
+      color: var(--muted);
+      font: 600 0.9rem/1.4 Arial, sans-serif;
+    }
+    @media (max-width: 640px) {
+      main { width: min(100% - 20px, 980px); padding-top: 20px; }
+      header, .panel { border-radius: 22px; padding: 18px; }
+    }
   </style>
 </head>
 <body>
-  <header>
-    <h1>WildWhere 2.0 — Wildlife Prediction</h1>
-    <p>Enter your trip context and get likely species.</p>
-  </header>
+  <main>
+    <header>
+      <span class="eyebrow">Local Flask interface</span>
+      <h1>WildWhere 2.0</h1>
+      <p>Enter your trip context and get likely wildlife predictions from the local API. If you are opening this page from a file instead of the Flask server, start the app first with <code>python3 app.py</code>.</p>
+      <div class="meta">
+        <span>Serves from the Flask app</span>
+        <span>Prediction endpoint: <code>/predict</code></span>
+      </div>
+    </header>
 
-  <div class="row">
-    <div>
-      <label for="park">Park</label>
-      <select id="park">
-        <option>Yellowstone</option>
-        <option>Glacier</option>
-        <option>Grand Teton</option>
-        <option>Olympic</option>
-        <option>Mount Rainier</option>
-      </select>
-    </div>
-    <div>
-      <label for="month">Month (1–12)</label>
-      <input id="month" type="number" min="1" max="12" value="7" />
-    </div>
-    <div>
-      <label for="time_of_day">Time of day</label>
-      <select id="time_of_day">
-        <option>dawn</option>
-        <option>day</option>
-        <option>dusk</option>
-        <option>night</option>
-      </select>
-    </div>
-  </div>
+    <section class="layout">
+      <div class="panel">
+        <div class="row">
+          <div>
+            <label for="park">Park</label>
+            <select id="park">
+              <option>Yellowstone</option>
+              <option>Glacier</option>
+              <option>Grand Teton</option>
+              <option>Olympic</option>
+              <option>Mount Rainier</option>
+            </select>
+          </div>
+          <div>
+            <label for="month">Month (1-12)</label>
+            <input id="month" type="number" min="1" max="12" value="7" />
+          </div>
+          <div>
+            <label for="time_of_day">Time of day</label>
+            <select id="time_of_day">
+              <option>dawn</option>
+              <option>day</option>
+              <option>dusk</option>
+              <option>night</option>
+            </select>
+          </div>
+        </div>
 
-  <div class="row">
-    <div>
-      <label for="region">Region (optional)</label>
-      <input id="region" placeholder="north / south / east / west" />
-    </div>
-    <div>
-      <label for="weather">Weather (optional)</label>
-      <input id="weather" placeholder="sunny / cloudy / rainy" />
-    </div>
-    <div>
-      <label for="temp_c">Temp °C (optional)</label>
-      <input id="temp_c" type="number" step="0.1" placeholder="12.5" />
-    </div>
-    <div>
-      <label for="top_n">Top N</label>
-      <input id="top_n" type="number" min="1" max="20" value="5" />
-    </div>
-  </div>
+        <div class="row">
+          <div>
+            <label for="region">Region (optional)</label>
+            <input id="region" placeholder="north / south / east / west" />
+          </div>
+          <div>
+            <label for="weather">Weather (optional)</label>
+            <input id="weather" placeholder="sunny / cloudy / rainy" />
+          </div>
+          <div>
+            <label for="temp_c">Temp C (optional)</label>
+            <input id="temp_c" type="number" step="0.1" placeholder="12.5" />
+          </div>
+          <div>
+            <label for="top_n">Top N</label>
+            <input id="top_n" type="number" min="1" max="20" value="5" />
+          </div>
+        </div>
 
-  <button id="predictBtn">Predict</button>
+        <button id="predictBtn" type="button">Predict likely species</button>
+        <div class="status" id="status">Checking local API status...</div>
+      </div>
 
-  <div class="result">
-    <h3>Results</h3>
-    <pre id="output">—</pre>
-  </div>
+      <div class="panel">
+        <h2>Results</h2>
+        <pre id="output">Waiting for a prediction.</pre>
+      </div>
+    </section>
+  </main>
 
   <script src="script.js"></script>
 </body>
 </html>
-

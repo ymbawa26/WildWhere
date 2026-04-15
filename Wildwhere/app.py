@@ -5,7 +5,7 @@ import os
 import json
 from typing import List, Optional, Tuple
 
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, send_from_directory
 from flask_cors import CORS
 from pydantic import BaseModel, Field, ValidationError, field_validator
 from dotenv import load_dotenv
@@ -24,7 +24,7 @@ from sklearn.ensemble import RandomForestClassifier
 load_dotenv()
 MODEL_PATH = os.getenv("MODEL_PATH", "models/wildlife_model.joblib")
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder="web", static_url_path="")
 CORS(app)
 
 
@@ -204,16 +204,23 @@ def _top_n_from_proba(model: Pipeline, X: pd.DataFrame, top_n: int) -> List[Spec
 # -----------------------------
 # Routes
 # -----------------------------
+def health_payload():
+    _, is_fallback = load_model()
+    return {
+        "status": "ok",
+        "model_path": MODEL_PATH if os.path.exists(MODEL_PATH) else None,
+        "using_fallback": bool(is_fallback),
+    }
+
+
 @app.get("/health")
 def health():
-    _, is_fallback = load_model()
-    return jsonify(
-        {
-            "status": "ok",
-            "model_path": MODEL_PATH if os.path.exists(MODEL_PATH) else None,
-            "using_fallback": bool(is_fallback),
-        }
-    )
+    return jsonify(health_payload())
+
+
+@app.get("/api/health")
+def health_alias():
+    return jsonify(health_payload())
 
 
 @app.post("/predict")
@@ -253,9 +260,13 @@ def predict():
         return jsonify({"error": "Prediction failed", "details": str(e)}), 500
 
 
-# Optional root for convenience
-@app.get("/")
-def root():
+@app.post("/api/predict")
+def predict_alias():
+    return predict()
+
+
+@app.get("/api")
+def api_root():
     return jsonify(
         {
             "message": "WildWhere 2.0 API",
@@ -267,10 +278,15 @@ def root():
     )
 
 
+@app.get("/")
+def root():
+    return send_from_directory(app.static_folder, "index.html")
+
+
 # -----------------------------
 # Entrypoint
 # -----------------------------
 if __name__ == "__main__":
     port = int(os.getenv("PORT", "5000"))
     debug = os.getenv("DEBUG", "true").lower() in {"1", "true", "yes"}
-    app.run(host="127.0.0.1", port=port, debug=debug)
+    app.run(host="0.0.0.0", port=port, debug=debug)

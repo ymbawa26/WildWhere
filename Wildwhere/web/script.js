@@ -1,3 +1,26 @@
+const API_BASE =
+  window.location.protocol === 'file:'
+    ? 'http://127.0.0.1:5000'
+    : window.location.origin;
+
+async function updateStatus() {
+  const status = document.getElementById('status');
+
+  try {
+    const res = await fetch(`${API_BASE}/health`);
+    if (!res.ok) {
+      throw new Error(`Health check returned ${res.status}`);
+    }
+
+    const data = await res.json();
+    status.textContent = data.using_fallback
+      ? 'API is live. The fallback model is active.'
+      : 'API is live. The trained model is loaded.';
+  } catch (error) {
+    status.textContent = `Could not reach the API at ${API_BASE}. Start the Flask server, then refresh.`;
+  }
+}
+
 async function predict() {
   const payload = {
     park: document.getElementById('park').value,
@@ -9,12 +32,11 @@ async function predict() {
     top_n: Number(document.getElementById('top_n').value) || 5
   };
 
-  const API = 'http://127.0.0.1:5000/predict';
   const out = document.getElementById('output');
   out.textContent = 'Loading...';
 
   try {
-    const res = await fetch(API, {
+    const res = await fetch(`${API_BASE}/predict`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(payload)
@@ -39,4 +61,4 @@ async function predict() {
   }
 }
 document.getElementById('predictBtn').addEventListener('click', predict);
-
+updateStatus();

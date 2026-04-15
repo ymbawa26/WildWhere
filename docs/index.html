@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>WildWhere Demo</title>
+  <meta
+    name="description"
+    content="A public browser demo for exploring likely wildlife sightings by park, season, and time of day."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;700&family=Instrument+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <main class="page-shell">
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="hero-kicker">Public browser demo</span>
+        <h1>Find the wildlife story your trip might hold.</h1>
+        <p class="hero-text">
+          WildWhere gives visitors a fast, interactive way to explore likely sightings by park, month,
+          time of day, and local conditions. This GitHub Pages version runs entirely in the browser so
+          anyone viewing your profile can try it instantly.
+        </p>
+        <div class="hero-notes">
+          <span>Transparent scoring</span>
+          <span>No setup required</span>
+          <span>Built for quick exploration</span>
+        </div>
+      </div>
+      <div class="hero-card">
+        <p class="eyebrow">How this demo works</p>
+        <p>
+          The live Pages demo uses a transparent client-side scoring model inspired by the parks,
+          conditions, and wildlife patterns in the full project. The Flask + scikit-learn app is still in
+          this repo for local use and future Python hosting.
+        </p>
+        <a class="hero-link" href="https://github.com/ymbawa26/WildWhere">Open the repo</a>
+      </div>
+    </section>
+
+    <section class="workspace">
+      <form class="panel form-panel" id="predict-form">
+        <div class="panel-header">
+          <h2>Plan a sighting scenario</h2>
+          <p>Choose a park and a few field conditions to see likely wildlife matches.</p>
+        </div>
+
+        <div class="field-grid">
+          <label class="field">
+            <span>Park</span>
+            <select id="park" name="park">
+              <option value="Yellowstone">Yellowstone</option>
+              <option value="Glacier">Glacier</option>
+              <option value="Grand Teton">Grand Teton</option>
+              <option value="Olympic">Olympic</option>
+              <option value="Mount Rainier">Mount Rainier</option>
+            </select>
+          </label>
+
+          <label class="field">
+            <span>Month</span>
+            <input id="month" name="month" type="number" min="1" max="12" value="7" />
+          </label>
+
+          <label class="field">
+            <span>Time of day</span>
+            <select id="time_of_day" name="time_of_day">
+              <option value="dawn">Dawn</option>
+              <option value="day">Day</option>
+              <option value="dusk">Dusk</option>
+              <option value="night">Night</option>
+            </select>
+          </label>
+
+          <label class="field">
+            <span>Region</span>
+            <select id="region" name="region">
+              <option value="">Any</option>
+              <option value="north">North</option>
+              <option value="south">South</option>
+              <option value="east">East</option>
+              <option value="west">West</option>
+            </select>
+          </label>
+
+          <label class="field">
+            <span>Weather</span>
+            <select id="weather" name="weather">
+              <option value="">Any</option>
+              <option value="sunny">Sunny</option>
+              <option value="cloudy">Cloudy</option>
+              <option value="rainy">Rainy</option>
+            </select>
+          </label>
+
+          <label class="field">
+            <span>Temperature C</span>
+            <input id="temp_c" name="temp_c" type="number" step="0.5" placeholder="12.5" />
+          </label>
+        </div>
+
+        <div class="actions">
+          <button class="primary-button" type="submit">Predict likely sightings</button>
+          <button class="ghost-button" id="load-sample" type="button">Load a strong sample</button>
+        </div>
+      </form>
+
+      <section class="panel results-panel" aria-live="polite">
+        <div class="panel-header">
+          <h2>Predicted encounters</h2>
+          <p id="summary-text">Pick a scenario to generate ranked wildlife predictions.</p>
+        </div>
+
+        <div class="results-list" id="results"></div>
+      </section>
+    </section>
+
+    <section class="footnotes">
+      <article class="panel info-card">
+        <h3>Why this version is public-friendly</h3>
+        <p>
+          GitHub Pages can host the interactive demo directly, so people visiting your account can use
+          WildWhere immediately instead of reading setup instructions first.
+        </p>
+      </article>
+      <article class="panel info-card">
+        <h3>Want the full Python app?</h3>
+        <p>
+          The complete Flask and scikit-learn implementation is still in the repo under
+          <code>Wildwhere/</code>, including the trained model and API endpoints for local or future cloud
+          deployment.
+        </p>
+      </article>
+    </section>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+</html>
