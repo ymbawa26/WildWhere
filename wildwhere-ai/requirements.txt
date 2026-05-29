@@ -1,0 +1,13 @@
+pandas
+numpy
+sqlalchemy
+requests
+matplotlib
+plotly
+scikit-learn
+streamlit
+pytest
+jupyter
+joblib
+
+# sqlite3 is used in Step 1 through Python's standard library.

@@ -1,0 +1,61 @@
+visit_id,park_id,park_name,year,month,recreation_visits,crowd_level,source
+park_glac_2025_01,park_glac,Glacier NP,2025,1,17984,low,NPS Visitor Use Statistics IRMA REST API
+park_glac_2025_02,park_glac,Glacier NP,2025,2,15202,low,NPS Visitor Use Statistics IRMA REST API
+park_glac_2025_03,park_glac,Glacier NP,2025,3,25909,low,NPS Visitor Use Statistics IRMA REST API
+park_glac_2025_04,park_glac,Glacier NP,2025,4,48576,medium,NPS Visitor Use Statistics IRMA REST API
+park_glac_2025_05,park_glac,Glacier NP,2025,5,238766,medium,NPS Visitor Use Statistics IRMA REST API
+park_glac_2025_06,park_glac,Glacier NP,2025,6,576577,high,NPS Visitor Use Statistics IRMA REST API
+park_glac_2025_07,park_glac,Glacier NP,2025,7,765061,high,NPS Visitor Use Statistics IRMA REST API
+park_glac_2025_08,park_glac,Glacier NP,2025,8,718766,high,NPS Visitor Use Statistics IRMA REST API
+park_glac_2025_09,park_glac,Glacier NP,2025,9,552479,high,NPS Visitor Use Statistics IRMA REST API
+park_glac_2025_10,park_glac,Glacier NP,2025,10,127537,medium,NPS Visitor Use Statistics IRMA REST API
+park_glac_2025_11,park_glac,Glacier NP,2025,11,27967,medium,NPS Visitor Use Statistics IRMA REST API
+park_glac_2025_12,park_glac,Glacier NP,2025,12,21733,low,NPS Visitor Use Statistics IRMA REST API
+park_grte_2025_01,park_grte,Grand Teton NP,2025,1,50745,low,NPS Visitor Use Statistics IRMA REST API
+park_grte_2025_02,park_grte,Grand Teton NP,2025,2,53580,low,NPS Visitor Use Statistics IRMA REST API
+park_grte_2025_03,park_grte,Grand Teton NP,2025,3,64716,medium,NPS Visitor Use Statistics IRMA REST API
+park_grte_2025_04,park_grte,Grand Teton NP,2025,4,77629,medium,NPS Visitor Use Statistics IRMA REST API
+park_grte_2025_05,park_grte,Grand Teton NP,2025,5,341521,medium,NPS Visitor Use Statistics IRMA REST API
+park_grte_2025_06,park_grte,Grand Teton NP,2025,6,680406,high,NPS Visitor Use Statistics IRMA REST API
+park_grte_2025_07,park_grte,Grand Teton NP,2025,7,787186,high,NPS Visitor Use Statistics IRMA REST API
+park_grte_2025_08,park_grte,Grand Teton NP,2025,8,735593,high,NPS Visitor Use Statistics IRMA REST API
+park_grte_2025_09,park_grte,Grand Teton NP,2025,9,617970,high,NPS Visitor Use Statistics IRMA REST API
+park_grte_2025_10,park_grte,Grand Teton NP,2025,10,281020,medium,NPS Visitor Use Statistics IRMA REST API
+park_grte_2025_11,park_grte,Grand Teton NP,2025,11,56377,low,NPS Visitor Use Statistics IRMA REST API
+park_grte_2025_12,park_grte,Grand Teton NP,2025,12,53905,low,NPS Visitor Use Statistics IRMA REST API
+park_mora_2025_01,park_mora,Mount Rainier NP,2025,1,28052,low,NPS Visitor Use Statistics IRMA REST API
+park_mora_2025_02,park_mora,Mount Rainier NP,2025,2,12733,low,NPS Visitor Use Statistics IRMA REST API
+park_mora_2025_03,park_mora,Mount Rainier NP,2025,3,23593,low,NPS Visitor Use Statistics IRMA REST API
+park_mora_2025_04,park_mora,Mount Rainier NP,2025,4,41504,medium,NPS Visitor Use Statistics IRMA REST API
+park_mora_2025_05,park_mora,Mount Rainier NP,2025,5,99974,medium,NPS Visitor Use Statistics IRMA REST API
+park_mora_2025_06,park_mora,Mount Rainier NP,2025,6,251066,high,NPS Visitor Use Statistics IRMA REST API
+park_mora_2025_07,park_mora,Mount Rainier NP,2025,7,428242,high,NPS Visitor Use Statistics IRMA REST API
+park_mora_2025_08,park_mora,Mount Rainier NP,2025,8,430922,high,NPS Visitor Use Statistics IRMA REST API
+park_mora_2025_09,park_mora,Mount Rainier NP,2025,9,168751,high,NPS Visitor Use Statistics IRMA REST API
+park_mora_2025_10,park_mora,Mount Rainier NP,2025,10,98921,medium,NPS Visitor Use Statistics IRMA REST API
+park_mora_2025_11,park_mora,Mount Rainier NP,2025,11,30232,medium,NPS Visitor Use Statistics IRMA REST API
+park_mora_2025_12,park_mora,Mount Rainier NP,2025,12,21352,low,NPS Visitor Use Statistics IRMA REST API
+park_olym_2025_01,park_olym,Olympic NP,2025,1,99595,low,NPS Visitor Use Statistics IRMA REST API
+park_olym_2025_02,park_olym,Olympic NP,2025,2,115894,low,NPS Visitor Use Statistics IRMA REST API
+park_olym_2025_03,park_olym,Olympic NP,2025,3,132357,low,NPS Visitor Use Statistics IRMA REST API
+park_olym_2025_04,park_olym,Olympic NP,2025,4,171452,medium,NPS Visitor Use Statistics IRMA REST API
+park_olym_2025_05,park_olym,Olympic NP,2025,5,436911,high,NPS Visitor Use Statistics IRMA REST API
+park_olym_2025_06,park_olym,Olympic NP,2025,6,365561,medium,NPS Visitor Use Statistics IRMA REST API
+park_olym_2025_07,park_olym,Olympic NP,2025,7,533701,high,NPS Visitor Use Statistics IRMA REST API
+park_olym_2025_08,park_olym,Olympic NP,2025,8,565357,high,NPS Visitor Use Statistics IRMA REST API
+park_olym_2025_09,park_olym,Olympic NP,2025,9,516754,high,NPS Visitor Use Statistics IRMA REST API
+park_olym_2025_10,park_olym,Olympic NP,2025,10,323073,medium,NPS Visitor Use Statistics IRMA REST API
+park_olym_2025_11,park_olym,Olympic NP,2025,11,217240,medium,NPS Visitor Use Statistics IRMA REST API
+park_olym_2025_12,park_olym,Olympic NP,2025,12,106292,low,NPS Visitor Use Statistics IRMA REST API
+park_yell_2025_01,park_yell,Yellowstone NP,2025,1,40363,low,NPS Visitor Use Statistics IRMA REST API
+park_yell_2025_02,park_yell,Yellowstone NP,2025,2,44133,medium,NPS Visitor Use Statistics IRMA REST API
+park_yell_2025_03,park_yell,Yellowstone NP,2025,3,33284,low,NPS Visitor Use Statistics IRMA REST API
+park_yell_2025_04,park_yell,Yellowstone NP,2025,4,78529,medium,NPS Visitor Use Statistics IRMA REST API
+park_yell_2025_05,park_yell,Yellowstone NP,2025,5,566363,medium,NPS Visitor Use Statistics IRMA REST API
+park_yell_2025_06,park_yell,Yellowstone NP,2025,6,928250,high,NPS Visitor Use Statistics IRMA REST API
+park_yell_2025_07,park_yell,Yellowstone NP,2025,7,975109,high,NPS Visitor Use Statistics IRMA REST API
+park_yell_2025_08,park_yell,Yellowstone NP,2025,8,881936,high,NPS Visitor Use Statistics IRMA REST API
+park_yell_2025_09,park_yell,Yellowstone NP,2025,9,839579,high,NPS Visitor Use Statistics IRMA REST API
+park_yell_2025_10,park_yell,Yellowstone NP,2025,10,313959,medium,NPS Visitor Use Statistics IRMA REST API
+park_yell_2025_11,park_yell,Yellowstone NP,2025,11,26961,low,NPS Visitor Use Statistics IRMA REST API
+park_yell_2025_12,park_yell,Yellowstone NP,2025,12,34522,low,NPS Visitor Use Statistics IRMA REST API

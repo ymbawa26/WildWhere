@@ -1,0 +1,29 @@
+label,sighting_count,metric_group
+Yellowstone National Park,570,sightings_by_park
+Grand Teton National Park,367,sightings_by_park
+Glacier National Park,271,sightings_by_park
+Olympic National Park,187,sightings_by_park
+Mount Rainier National Park,160,sightings_by_park
+Elk,252,sightings_by_species
+Black Bear,198,sightings_by_species
+Mountain Goat,192,sightings_by_species
+Coyote,148,sightings_by_species
+Bald Eagle,146,sightings_by_species
+Grizzly Bear,134,sightings_by_species
+Moose,124,sightings_by_species
+Bighorn Sheep,116,sightings_by_species
+Gray Wolf,102,sightings_by_species
+Bison,61,sightings_by_species
+Grizzly Bear,23,sightings_by_species
+Bison,22,sightings_by_species
+Bighorn Sheep,18,sightings_by_species
+Gray Wolf,8,sightings_by_species
+Black Bear,5,sightings_by_species
+Bald Eagle,4,sightings_by_species
+Coyote,2,sightings_by_species
+afternoon,565,sightings_by_time_of_day
+morning,508,sightings_by_time_of_day
+evening,303,sightings_by_time_of_day
+early_morning,115,sightings_by_time_of_day
+night,63,sightings_by_time_of_day
+unknown,1,sightings_by_time_of_day

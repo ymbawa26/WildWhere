@@ -1,16 +1,7 @@
-# WildWhere 2.0 — Wildlife Sighting Predictor
+# WildWhere Legacy App
 
-A small Flask + scikit-learn app that predicts likely wildlife by park, month, and time of day.
+The active portfolio build is WildWhere AI:
 
-## Run locally
+https://wildwhere-ai.vercel.app
 
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-python3 app.py
-```
-
-Then open `http://127.0.0.1:5000`.
-
-The app now serves the web interface directly, so you no longer need to open `web/index.html` manually.
+This folder contains an earlier Flask/scikit-learn prototype kept for project history. The recruiter-facing version is the `wildwhere-ai/` project and the deployed Vercel preview above.

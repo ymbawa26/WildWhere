@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>WildWhere AI | Wildlife Intelligence Dashboard</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #0f1714;
+        --surface: #17231f;
+        --surface-2: #20302a;
+        --line: #34453d;
+        --text: #f3f5ef;
+        --muted: #a8b5aa;
+        --green: #7fb069;
+        --gold: #d9a441;
+        --coral: #d66a50;
+        --blue: #6ca6c1;
+      }
+
+      * { box-sizing: border-box; }
+      html { scroll-behavior: smooth; }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        line-height: 1.55;
+      }
+      main { width: min(1180px, calc(100% - 32px)); margin: 0 auto; padding: 36px 0 56px; }
+      nav {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+        padding: 14px 0;
+        background: rgba(15, 23, 20, 0.94);
+        backdrop-filter: blur(14px);
+        border-bottom: 1px solid var(--line);
+      }
+      nav a { color: var(--muted); text-decoration: none; font-weight: 700; margin-left: 14px; }
+      nav a:hover { color: var(--text); }
+      .brand { color: var(--text); font-weight: 900; }
+      header { padding: 58px 0 34px; border-bottom: 1px solid var(--line); }
+      .eyebrow { color: var(--green); font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; }
+      h1 { margin: 8px 0 14px; font-size: clamp(2.4rem, 7vw, 5.7rem); line-height: 0.95; letter-spacing: 0; max-width: 980px; }
+      h2 { margin: 0 0 16px; font-size: 1.45rem; }
+      h3 { margin: 0 0 10px; font-size: 1rem; }
+      p { color: var(--muted); max-width: 840px; }
+      section { padding: 34px 0; border-bottom: 1px solid var(--line); }
+      .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
+      .two { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+      .card {
+        background: var(--surface);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 18px;
+      }
+      .metric { display: block; font-size: 2.1rem; font-weight: 900; }
+      .label, .note { color: var(--muted); font-size: 0.92rem; }
+      .status {
+        display: inline-block;
+        color: #101511;
+        background: var(--green);
+        border-radius: 999px;
+        padding: 5px 11px;
+        font-weight: 900;
+      }
+      .warn { background: rgba(217, 164, 65, 0.13); border: 1px solid rgba(217, 164, 65, 0.42); color: #f0d28a; border-radius: 8px; padding: 14px; }
+      table { width: 100%; border-collapse: collapse; border-radius: 8px; overflow: hidden; }
+      th, td { border-bottom: 1px solid var(--line); padding: 11px; text-align: left; vertical-align: top; }
+      th { background: var(--surface-2); color: var(--text); }
+      .bar { height: 12px; background: var(--surface-2); border: 1px solid var(--line); border-radius: 999px; overflow: hidden; }
+      .fill { height: 100%; background: linear-gradient(90deg, var(--green), var(--gold)); }
+      .controls { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 12px; }
+      label { color: var(--muted); display: block; font-size: 0.86rem; font-weight: 800; margin-bottom: 6px; }
+      select, input {
+        width: 100%;
+        background: var(--surface-2);
+        color: var(--text);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 10px;
+      }
+      button {
+        cursor: pointer;
+        background: var(--green);
+        color: #101511;
+        border: 0;
+        border-radius: 8px;
+        padding: 11px 14px;
+        font-weight: 900;
+      }
+      .result { font-size: 1.8rem; font-weight: 900; color: var(--gold); }
+      code, pre { background: #0b110f; border: 1px solid var(--line); border-radius: 8px; color: #d7ead9; }
+      pre { overflow: auto; padding: 14px; }
+      a { color: var(--gold); }
+      @media (max-width: 760px) { .two { grid-template-columns: 1fr; } nav { display: block; } nav a { display: inline-block; margin: 8px 10px 0 0; } }
+    </style>
+  </head>
+  <body>
+    <main>
+      <nav>
+        <div class="brand">WildWhere AI</div>
+        <div>
+          <a href="#analytics">Analytics</a>
+          <a href="#prediction">Prediction</a>
+          <a href="#serpapi">SerpApi</a>
+          <a href="#sql">SQL</a>
+          <a href="#transparency">Transparency</a>
+          <a href="#entry">App Entry</a>
+        </div>
+      </nav>
+
+      <header>
+        <div class="eyebrow">Wildlife Intelligence Dashboard</div>
+        <h1>Historical wildlife observation patterns across U.S. national parks.</h1>
+        <p>
+          WildWhere AI combines real public GBIF, NPS, NOAA, and visitation datasets into a cleaned SQLite warehouse,
+          analytics layer, machine-learning model, and Streamlit-ready dashboard. This deployed page surfaces the project
+          analytics and prediction workflow with an explicit park-species eligibility gate.
+        </p>
+        <span class="status">Prediction safety gate enabled</span>
+      </header>
+
+      <section id="analytics">
+        <h2>Analytics Overview</h2>
+        <div class="grid">
+          <div class="card"><span class="metric">1,555</span><span class="label">Clean reported observation records</span></div>
+          <div class="card"><span class="metric">5</span><span class="label">National parks covered</span></div>
+          <div class="card"><span class="metric">10</span><span class="label">Target wildlife species</span></div>
+          <div class="card"><span class="metric">0.876</span><span class="label">ML test accuracy after eligibility filtering</span></div>
+        </div>
+        <div class="two" style="margin-top:16px;">
+          <div class="card">
+            <h3>Reported Sightings By Park</h3>
+            <table>
+              <tr><th>Park</th><th>Records</th><th></th></tr>
+              <tr><td>Yellowstone</td><td>570</td><td><div class="bar"><div class="fill" style="width:100%"></div></div></td></tr>
+              <tr><td>Grand Teton</td><td>367</td><td><div class="bar"><div class="fill" style="width:64%"></div></div></td></tr>
+              <tr><td>Glacier</td><td>271</td><td><div class="bar"><div class="fill" style="width:48%"></div></div></td></tr>
+              <tr><td>Olympic</td><td>187</td><td><div class="bar"><div class="fill" style="width:33%"></div></div></td></tr>
+              <tr><td>Mount Rainier</td><td>160</td><td><div class="bar"><div class="fill" style="width:28%"></div></div></td></tr>
+            </table>
+          </div>
+          <div class="card">
+            <h3>Top Reported Species</h3>
+            <table>
+              <tr><th>Species</th><th>Records</th><th></th></tr>
+              <tr><td>Elk</td><td>252</td><td><div class="bar"><div class="fill" style="width:100%"></div></div></td></tr>
+              <tr><td>Black Bear</td><td>203</td><td><div class="bar"><div class="fill" style="width:81%"></div></div></td></tr>
+              <tr><td>Mountain Goat</td><td>192</td><td><div class="bar"><div class="fill" style="width:76%"></div></div></td></tr>
+              <tr><td>Grizzly Bear</td><td>157</td><td><div class="bar"><div class="fill" style="width:62%"></div></div></td></tr>
+              <tr><td>Bald Eagle</td><td>150</td><td><div class="bar"><div class="fill" style="width:60%"></div></div></td></tr>
+            </table>
+          </div>
+        </div>
+        <div class="card" style="margin-top:16px;">
+          <h3>Seasonal Pattern</h3>
+          <table>
+            <tr><th>Season</th><th>Records</th><th></th></tr>
+            <tr><td>Summer</td><td>700</td><td><div class="bar"><div class="fill" style="width:100%"></div></div></td></tr>
+            <tr><td>Spring</td><td>396</td><td><div class="bar"><div class="fill" style="width:57%"></div></div></td></tr>
+            <tr><td>Winter</td><td>278</td><td><div class="bar"><div class="fill" style="width:40%"></div></div></td></tr>
+            <tr><td>Fall</td><td>181</td><td><div class="bar"><div class="fill" style="width:26%"></div></div></td></tr>
+          </table>
+        </div>
+      </section>
+
+      <section id="prediction">
+        <h2>Estimated Reported-Observation Likelihood</h2>
+        <p>
+          The project uses a two-stage system. First, selected park/species combinations are checked against official park-species
+          reference data. Only documented combinations are evaluated by the model for historical reported-observation likelihood.
+        </p>
+        <div class="card">
+          <h3>Valid Prediction Grid Preview</h3>
+          <p class="note">
+            The deployed preview shows precomputed rows from <code>data/processed/valid_prediction_grid.csv</code>. Unsupported
+            combinations are excluded before model scoring.
+          </p>
+          <table>
+            <tr><th>Park</th><th>Species</th><th>Season</th><th>Time Window</th><th>Output</th><th>Records</th></tr>
+            <tr><td>Yellowstone National Park</td><td>Bison</td><td>summer</td><td>unknown</td><td>high</td><td>47</td></tr>
+            <tr><td>Grand Teton National Park</td><td>Moose</td><td>summer</td><td>morning</td><td>high</td><td>28</td></tr>
+            <tr><td>Mount Rainier National Park</td><td>Mountain Goat</td><td>summer</td><td>morning</td><td>high</td><td>52</td></tr>
+            <tr><td>Grand Teton National Park</td><td>Mountain Goat</td><td>summer</td><td>unknown</td><td>Insufficient data</td><td>3</td></tr>
+            <tr><td>Olympic National Park</td><td>Bald Eagle</td><td>summer</td><td>unknown</td><td>high</td><td>54</td></tr>
+            <tr><td>Glacier National Park</td><td>Mountain Goat</td><td>winter</td><td>unknown</td><td>low</td><td>37</td></tr>
+          </table>
+          <p class="warn">
+            Example blocked combination: Bison in Mount Rainier National Park returns <strong>Not supported</strong> with no model score
+            because the species is not documented for the selected park in the project reference data.
+          </p>
+        </div>
+      </section>
+
+      <section id="serpapi">
+        <h2>Step 3.5 SerpApi Enrichment</h2>
+        <p>
+          WildWhere AI now includes an optional SerpApi enrichment layer for public search context: named viewing areas,
+          seasonal advice, time-of-day mentions, and source/domain signals. This is supplemental context, not scientific ground truth.
+        </p>
+        <div class="grid">
+          <div class="card"><span class="metric">350</span><span class="label">Search queries planned across park/species/template combinations</span></div>
+          <div class="card"><span class="metric">0</span><span class="label">Live SerpApi results collected in this deployment because no API key was provided</span></div>
+          <div class="card"><span class="metric">1,555</span><span class="label">Rows in wildlife_features_enriched.csv with zero/unknown context defaults</span></div>
+          <div class="card"><span class="metric">60</span><span class="label">Tests passing after prediction-safety patch</span></div>
+        </div>
+        <p class="warn">
+          Search-context enrichment is optional and depends on configured API credentials.
+          Search-derived context should support interpretation, not replace GBIF, NPSpecies, NOAA, or NPS visitation data.
+        </p>
+      </section>
+
+      <section id="sql">
+        <h2>SQL + Warehouse Layer</h2>
+        <p>The SQLite warehouse includes cleaned tables for parks, species, sightings, weather, visitation, and joined wildlife features.</p>
+        <div class="grid">
+          <div class="card"><span class="metric">6</span><span class="label">SQLite tables</span></div>
+          <div class="card"><span class="metric">10</span><span class="label">Portfolio SQL queries</span></div>
+          <div class="card"><span class="metric">9</span><span class="label">Processed analytics CSVs</span></div>
+        </div>
+        <pre><code>SELECT park_name, common_name, COUNT(*) AS sighting_count
+FROM wildlife_features
+GROUP BY park_name, common_name
+ORDER BY sighting_count DESC;</code></pre>
+      </section>
+
+      <section id="transparency">
+        <h2>Data Transparency</h2>
+        <div class="grid">
+          <div class="card"><span class="metric">17.2%</span><span class="label">Weather join success</span></div>
+          <div class="card"><span class="metric">47.5%</span><span class="label">Visitation join success</span></div>
+          <div class="card"><span class="metric">1,050</span><span class="label">Bounding-box-only records</span></div>
+          <div class="card"><span class="metric">505</span><span class="label">Coordinate-uncertain records</span></div>
+        </div>
+        <p class="warn">
+          GBIF records are reported observations collected near parks with bounding boxes. They are not confirmed wildlife presence,
+          real-time tracking, complete wildlife distributions, or true population density.
+        </p>
+      </section>
+
+      <section id="entry">
+        <h2>Project Entry</h2>
+        <p>The deployed Vercel page is the public portfolio preview. The repository also includes a full Streamlit application with entry point <code>app/main.py</code>.</p>
+        <p><a href="https://wildwhere-ai.vercel.app">https://wildwhere-ai.vercel.app</a></p>
+      </section>
+    </main>
+  </body>
+</html>

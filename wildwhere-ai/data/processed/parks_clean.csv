@@ -1,0 +1,6 @@
+park_id,park_code,park_name,state,latitude,longitude,acres,designation,official_url,source
+park_yell,YELL,Yellowstone National Park,WY/MT/ID,44.428,-110.5885,2219790.71,National Park,https://www.nps.gov/yell/index.htm,National Park Service park reference
+park_grte,GRTE,Grand Teton National Park,WY,43.7904,-110.6818,310044.36,National Park,https://www.nps.gov/grte/index.htm,National Park Service park reference
+park_glac,GLAC,Glacier National Park,MT,48.7596,-113.787,1013126.39,National Park,https://www.nps.gov/glac/index.htm,National Park Service park reference
+park_olym,OLYM,Olympic National Park,WA,47.8021,-123.6044,922649.41,National Park,https://www.nps.gov/olym/index.htm,National Park Service park reference
+park_mora,MORA,Mount Rainier National Park,WA,46.8797,-121.7269,236381.64,National Park,https://www.nps.gov/mora/index.htm,National Park Service park reference

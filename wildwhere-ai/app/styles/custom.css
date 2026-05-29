@@ -1,0 +1,64 @@
+:root {
+  --bg: #0f1714;
+  --surface: #17231f;
+  --surface-2: #20302a;
+  --line: #34453d;
+  --text: #f3f5ef;
+  --muted: #a8b5aa;
+  --green: #7fb069;
+  --gold: #d9a441;
+}
+
+.stApp {
+  background: var(--bg);
+  color: var(--text);
+}
+
+h1, h2, h3 {
+  letter-spacing: 0;
+}
+
+.eyebrow {
+  color: var(--green);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 0.35rem;
+}
+
+.subtitle {
+  color: var(--muted);
+  max-width: 860px;
+  font-size: 1rem;
+}
+
+.metric-card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 18px;
+  min-height: 116px;
+}
+
+.metric-value {
+  color: var(--text);
+  font-size: 2rem;
+  font-weight: 850;
+}
+
+.metric-label {
+  color: var(--muted);
+  font-weight: 650;
+}
+
+.metric-help {
+  color: var(--muted);
+  font-size: 0.84rem;
+  margin-top: 8px;
+}
+
+div[data-testid="stDataFrame"] {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}

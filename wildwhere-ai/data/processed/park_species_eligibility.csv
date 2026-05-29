@@ -1,0 +1,51 @@
+park_name,park_code,common_name,scientific_name,is_documented_in_park,source,confidence_level,notes
+Yellowstone National Park,YELL,Grizzly Bear,Ursus arctos,False,NPSpecies,blocked,No matching NPSpecies target-species record for this park.
+Yellowstone National Park,YELL,Black Bear,Ursus americanus,True,NPSpecies IRMA REST API,high,NPSpecies occurrence status: Present
+Yellowstone National Park,YELL,Moose,Alces alces,True,NPSpecies IRMA REST API,high,NPSpecies occurrence status: Present
+Yellowstone National Park,YELL,Elk,Cervus elaphus,True,NPSpecies IRMA REST API,high,NPSpecies occurrence status: Present
+Yellowstone National Park,YELL,Bison,Bison bison,True,NPSpecies IRMA REST API,high,NPSpecies occurrence status: Present
+Yellowstone National Park,YELL,Gray Wolf,Canis lupus,True,NPSpecies IRMA REST API,high,NPSpecies occurrence status: Present
+Yellowstone National Park,YELL,Mountain Goat,Oreamnos americanus,True,NPSpecies IRMA REST API,high,NPSpecies occurrence status: Present
+Yellowstone National Park,YELL,Bighorn Sheep,Ovis canadensis,True,NPSpecies IRMA REST API,high,NPSpecies occurrence status: Present
+Yellowstone National Park,YELL,Bald Eagle,Haliaeetus leucocephalus,True,NPSpecies IRMA REST API,high,NPSpecies occurrence status: Present
+Yellowstone National Park,YELL,Coyote,Canis latrans,True,NPSpecies IRMA REST API,high,NPSpecies occurrence status: Present
+Grand Teton National Park,GRTE,Grizzly Bear,Ursus arctos,True,NPSpecies IRMA REST API,high,NPSpecies occurrence status: Present
+Grand Teton National Park,GRTE,Black Bear,Ursus americanus,True,NPSpecies IRMA REST API,high,NPSpecies occurrence status: Present
+Grand Teton National Park,GRTE,Moose,Alces alces,True,NPSpecies IRMA REST API,high,NPSpecies occurrence status: Present
+Grand Teton National Park,GRTE,Elk,Cervus elaphus,True,NPSpecies IRMA REST API,high,NPSpecies occurrence status: Present
+Grand Teton National Park,GRTE,Bison,Bison bison,False,NPSpecies,blocked,No matching NPSpecies target-species record for this park.
+Grand Teton National Park,GRTE,Gray Wolf,Canis lupus,True,NPSpecies IRMA REST API,high,NPSpecies occurrence status: Present
+Grand Teton National Park,GRTE,Mountain Goat,Oreamnos americanus,True,NPSpecies IRMA REST API,medium,NPSpecies occurrence status: Probably Present
+Grand Teton National Park,GRTE,Bighorn Sheep,Ovis canadensis,True,NPSpecies IRMA REST API,high,NPSpecies occurrence status: Present
+Grand Teton National Park,GRTE,Bald Eagle,Haliaeetus leucocephalus,True,NPSpecies IRMA REST API,high,NPSpecies occurrence status: Present
+Grand Teton National Park,GRTE,Coyote,Canis latrans,True,NPSpecies IRMA REST API,high,NPSpecies occurrence status: Present
+Glacier National Park,GLAC,Grizzly Bear,Ursus arctos,False,NPSpecies,blocked,No matching NPSpecies target-species record for this park.
+Glacier National Park,GLAC,Black Bear,Ursus americanus,True,NPSpecies IRMA REST API,high,NPSpecies occurrence status: Present
+Glacier National Park,GLAC,Moose,Alces alces,True,NPSpecies IRMA REST API,high,NPSpecies occurrence status: Present
+Glacier National Park,GLAC,Elk,Cervus elaphus,True,NPSpecies IRMA REST API,high,NPSpecies occurrence status: Present
+Glacier National Park,GLAC,Bison,Bison bison,False,NPSpecies IRMA REST API,blocked,NPSpecies occurrence status: Not In Park
+Glacier National Park,GLAC,Gray Wolf,Canis lupus,True,NPSpecies IRMA REST API,high,NPSpecies occurrence status: Present
+Glacier National Park,GLAC,Mountain Goat,Oreamnos americanus,True,NPSpecies IRMA REST API,high,NPSpecies occurrence status: Present
+Glacier National Park,GLAC,Bighorn Sheep,Ovis canadensis,True,NPSpecies IRMA REST API,high,NPSpecies occurrence status: Present
+Glacier National Park,GLAC,Bald Eagle,Haliaeetus leucocephalus,True,NPSpecies IRMA REST API,high,NPSpecies occurrence status: Present
+Glacier National Park,GLAC,Coyote,Canis latrans,True,NPSpecies IRMA REST API,high,NPSpecies occurrence status: Present
+Olympic National Park,OLYM,Grizzly Bear,Ursus arctos,False,NPSpecies,blocked,No matching NPSpecies target-species record for this park.
+Olympic National Park,OLYM,Black Bear,Ursus americanus,True,NPSpecies IRMA REST API,high,NPSpecies occurrence status: Present
+Olympic National Park,OLYM,Moose,Alces alces,False,NPSpecies,blocked,No matching NPSpecies target-species record for this park.
+Olympic National Park,OLYM,Elk,Cervus canadensis,False,NPSpecies,blocked,No matching NPSpecies target-species record for this park.
+Olympic National Park,OLYM,Bison,Bison bison,False,NPSpecies,blocked,No matching NPSpecies target-species record for this park.
+Olympic National Park,OLYM,Gray Wolf,Canis lupus,False,NPSpecies IRMA REST API,blocked,NPSpecies occurrence status: Not In Park
+Olympic National Park,OLYM,Mountain Goat,Oreamnos americanus,True,NPSpecies IRMA REST API,high,NPSpecies occurrence status: Present
+Olympic National Park,OLYM,Bighorn Sheep,Ovis canadensis,False,NPSpecies,blocked,No matching NPSpecies target-species record for this park.
+Olympic National Park,OLYM,Bald Eagle,Haliaeetus leucocephalus,True,NPSpecies IRMA REST API,high,NPSpecies occurrence status: Present
+Olympic National Park,OLYM,Coyote,Canis latrans,True,NPSpecies IRMA REST API,high,NPSpecies occurrence status: Present
+Mount Rainier National Park,MORA,Grizzly Bear,Ursus arctos,False,NPSpecies IRMA REST API,blocked,NPSpecies occurrence status: Unconfirmed
+Mount Rainier National Park,MORA,Black Bear,Ursus americanus,True,NPSpecies IRMA REST API,high,NPSpecies occurrence status: Present
+Mount Rainier National Park,MORA,Moose,Alces alces,False,NPSpecies,blocked,No matching NPSpecies target-species record for this park.
+Mount Rainier National Park,MORA,Elk,Cervus elaphus,True,NPSpecies IRMA REST API,high,NPSpecies occurrence status: Present
+Mount Rainier National Park,MORA,Bison,Bison bison,False,NPSpecies,blocked,No matching NPSpecies target-species record for this park.
+Mount Rainier National Park,MORA,Gray Wolf,Canis lupus,False,NPSpecies IRMA REST API,blocked,NPSpecies occurrence status: Unconfirmed
+Mount Rainier National Park,MORA,Mountain Goat,Oreamnos americanus,True,NPSpecies IRMA REST API,high,NPSpecies occurrence status: Present
+Mount Rainier National Park,MORA,Bighorn Sheep,Ovis canadensis,False,NPSpecies,blocked,No matching NPSpecies target-species record for this park.
+Mount Rainier National Park,MORA,Bald Eagle,Haliaeetus leucocephalus,False,NPSpecies,blocked,No matching NPSpecies target-species record for this park.
+Mount Rainier National Park,MORA,Coyote,Canis latrans,True,NPSpecies IRMA REST API,high,NPSpecies occurrence status: Present

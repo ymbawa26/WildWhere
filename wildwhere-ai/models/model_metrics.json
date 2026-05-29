@@ -1,0 +1,151 @@
+{
+  "model_type": "RandomForestClassifier",
+  "target": "estimated_reported_sighting_likelihood",
+  "training_source": "/Users/bvega/Desktop/Wildwhere/wildwhere-ai/data/processed/wildlife_features_enriched.csv",
+  "uses_serpapi_enrichment": true,
+  "accuracy": 0.8761061946902655,
+  "classification_report": {
+    "high": {
+      "precision": 0.8631178707224335,
+      "recall": 1.0,
+      "f1-score": 0.926530612244898,
+      "support": 227.0
+    },
+    "low": {
+      "precision": 0.9393939393939394,
+      "recall": 0.5636363636363636,
+      "f1-score": 0.7045454545454546,
+      "support": 55.0
+    },
+    "medium": {
+      "precision": 0.9069767441860465,
+      "recall": 0.6842105263157895,
+      "f1-score": 0.78,
+      "support": 57.0
+    },
+    "accuracy": 0.8761061946902655,
+    "macro avg": {
+      "precision": 0.9031628514341398,
+      "recall": 0.7492822966507177,
+      "f1-score": 0.8036920222634508,
+      "support": 339.0
+    },
+    "weighted avg": {
+      "precision": 0.8828675449535803,
+      "recall": 0.8761061946902655,
+      "f1-score": 0.8658774306182649,
+      "support": 339.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      227,
+      0,
+      0
+    ],
+    [
+      20,
+      31,
+      4
+    ],
+    [
+      16,
+      2,
+      39
+    ]
+  ],
+  "labels": [
+    "high",
+    "low",
+    "medium"
+  ],
+  "training_rows": 1016,
+  "test_rows": 339,
+  "removed_invalid_rows": 198,
+  "removed_bounding_box_low_confidence_rows": 2,
+  "eligible_park_species_combinations": 34,
+  "source_rows_before_filtering": 1555,
+  "important_note": "This model estimates reported-observation likelihood from historical records and supplemental public context. It does not predict confirmed wildlife presence.",
+  "feature_importance": [
+    {
+      "feature": "numeric__month",
+      "importance": 0.08191042700900984
+    },
+    {
+      "feature": "numeric__recreation_visits",
+      "importance": 0.06378273419855053
+    },
+    {
+      "feature": "categorical__time_of_day_afternoon",
+      "importance": 0.05005894779430017
+    },
+    {
+      "feature": "categorical__time_of_day_morning",
+      "importance": 0.04487458044818244
+    },
+    {
+      "feature": "categorical__common_name_Coyote",
+      "importance": 0.040963111949901536
+    },
+    {
+      "feature": "categorical__time_of_day_evening",
+      "importance": 0.04082831933908756
+    },
+    {
+      "feature": "numeric__temperature_avg",
+      "importance": 0.039691485453790795
+    },
+    {
+      "feature": "categorical__time_of_day_early_morning",
+      "importance": 0.03654131306072732
+    },
+    {
+      "feature": "categorical__park_name_Yellowstone National Park",
+      "importance": 0.03573773117173166
+    },
+    {
+      "feature": "categorical__park_name_Grand Teton National Park",
+      "importance": 0.03409561028801323
+    },
+    {
+      "feature": "categorical__common_name_Gray Wolf",
+      "importance": 0.03398649759611745
+    },
+    {
+      "feature": "categorical__common_name_Bighorn Sheep",
+      "importance": 0.030891240519461582
+    },
+    {
+      "feature": "categorical__park_name_Glacier National Park",
+      "importance": 0.03048122462361048
+    },
+    {
+      "feature": "categorical__season_summer",
+      "importance": 0.030099806234959493
+    },
+    {
+      "feature": "categorical__common_name_Black Bear",
+      "importance": 0.028418947178012986
+    },
+    {
+      "feature": "categorical__common_name_Bald Eagle",
+      "importance": 0.027818974487922116
+    },
+    {
+      "feature": "categorical__time_of_day_night",
+      "importance": 0.027438661435687232
+    },
+    {
+      "feature": "categorical__season_spring",
+      "importance": 0.024992795762339277
+    },
+    {
+      "feature": "categorical__common_name_Mountain Goat",
+      "importance": 0.024772430794121895
+    },
+    {
+      "feature": "categorical__data_quality_flag_coordinate_uncertain",
+      "importance": 0.024554472531753503
+    }
+  ]
+}

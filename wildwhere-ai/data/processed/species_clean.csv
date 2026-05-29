@@ -1,0 +1,11 @@
+species_id,common_name,scientific_name,category,source
+species_grizzly_bear,Grizzly Bear,Ursus arctos,Mammal,NPSpecies IRMA REST API
+species_black_bear,Black Bear,Ursus americanus,Mammal,NPSpecies IRMA REST API
+species_moose,Moose,Alces alces,Mammal,NPSpecies IRMA REST API
+species_elk,Elk,Cervus canadensis,Mammal,NPSpecies IRMA REST API
+species_bison,Bison,Bison bison,Mammal,NPSpecies IRMA REST API
+species_gray_wolf,Gray Wolf,Canis lupus,Mammal,NPSpecies IRMA REST API
+species_mountain_goat,Mountain Goat,Oreamnos americanus,Mammal,NPSpecies IRMA REST API
+species_bighorn_sheep,Bighorn Sheep,Ovis canadensis,Mammal,NPSpecies IRMA REST API
+species_bald_eagle,Bald Eagle,Haliaeetus leucocephalus,Bird,NPSpecies IRMA REST API
+species_coyote,Coyote,Canis latrans,Mammal,NPSpecies IRMA REST API

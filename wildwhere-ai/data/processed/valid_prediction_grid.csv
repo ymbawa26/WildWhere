@@ -1,0 +1,817 @@
+park_name,common_name,season,time_of_day,likelihood_category,confidence,eligibility_status,record_count
+Yellowstone National Park,Black Bear,winter,unknown,high,0.6125,eligible,47
+Yellowstone National Park,Black Bear,winter,early_morning,low,0.60625,eligible,47
+Yellowstone National Park,Black Bear,winter,morning,high,0.65625,eligible,47
+Yellowstone National Park,Black Bear,winter,afternoon,high,0.8625,eligible,47
+Yellowstone National Park,Black Bear,winter,evening,high,0.53125,eligible,47
+Yellowstone National Park,Black Bear,winter,night,low,0.59375,eligible,47
+Yellowstone National Park,Black Bear,spring,unknown,high,0.625,eligible,47
+Yellowstone National Park,Black Bear,spring,early_morning,low,0.675,eligible,47
+Yellowstone National Park,Black Bear,spring,morning,high,0.94375,eligible,47
+Yellowstone National Park,Black Bear,spring,afternoon,high,0.99375,eligible,47
+Yellowstone National Park,Black Bear,spring,evening,low,0.53125,eligible,47
+Yellowstone National Park,Black Bear,spring,night,low,0.5875,eligible,47
+Yellowstone National Park,Black Bear,summer,unknown,high,0.8375,eligible,47
+Yellowstone National Park,Black Bear,summer,early_morning,low,0.44375,eligible,47
+Yellowstone National Park,Black Bear,summer,morning,high,0.96875,eligible,47
+Yellowstone National Park,Black Bear,summer,afternoon,high,0.9625,eligible,47
+Yellowstone National Park,Black Bear,summer,evening,high,0.89375,eligible,47
+Yellowstone National Park,Black Bear,summer,night,low,0.56875,eligible,47
+Yellowstone National Park,Black Bear,fall,unknown,high,0.49375,eligible,47
+Yellowstone National Park,Black Bear,fall,early_morning,low,0.4875,eligible,47
+Yellowstone National Park,Black Bear,fall,morning,high,0.5625,eligible,47
+Yellowstone National Park,Black Bear,fall,afternoon,high,0.7375,eligible,47
+Yellowstone National Park,Black Bear,fall,evening,high,0.43125,eligible,47
+Yellowstone National Park,Black Bear,fall,night,low,0.50625,eligible,47
+Yellowstone National Park,Moose,winter,unknown,high,0.49375,eligible,61
+Yellowstone National Park,Moose,winter,early_morning,low,0.68125,eligible,61
+Yellowstone National Park,Moose,winter,morning,high,0.81875,eligible,61
+Yellowstone National Park,Moose,winter,afternoon,high,0.7,eligible,61
+Yellowstone National Park,Moose,winter,evening,high,0.5,eligible,61
+Yellowstone National Park,Moose,winter,night,low,0.70625,eligible,61
+Yellowstone National Park,Moose,spring,unknown,low,0.5375,eligible,61
+Yellowstone National Park,Moose,spring,early_morning,low,0.8375,eligible,61
+Yellowstone National Park,Moose,spring,morning,high,0.96875,eligible,61
+Yellowstone National Park,Moose,spring,afternoon,low,0.69375,eligible,61
+Yellowstone National Park,Moose,spring,evening,medium,0.40625,eligible,61
+Yellowstone National Park,Moose,spring,night,low,0.775,eligible,61
+Yellowstone National Park,Moose,summer,unknown,high,0.6625,eligible,61
+Yellowstone National Park,Moose,summer,early_morning,low,0.61875,eligible,61
+Yellowstone National Park,Moose,summer,morning,high,0.98125,eligible,61
+Yellowstone National Park,Moose,summer,afternoon,high,0.75,eligible,61
+Yellowstone National Park,Moose,summer,evening,high,0.6125,eligible,61
+Yellowstone National Park,Moose,summer,night,low,0.69375,eligible,61
+Yellowstone National Park,Moose,fall,unknown,low,0.45625,eligible,61
+Yellowstone National Park,Moose,fall,early_morning,low,0.69375,eligible,61
+Yellowstone National Park,Moose,fall,morning,high,0.65,eligible,61
+Yellowstone National Park,Moose,fall,afternoon,low,0.48125,eligible,61
+Yellowstone National Park,Moose,fall,evening,medium,0.4,eligible,61
+Yellowstone National Park,Moose,fall,night,low,0.71875,eligible,61
+Yellowstone National Park,Elk,winter,unknown,high,0.56875,eligible,51
+Yellowstone National Park,Elk,winter,early_morning,low,0.5,eligible,51
+Yellowstone National Park,Elk,winter,morning,medium,0.5375,eligible,51
+Yellowstone National Park,Elk,winter,afternoon,high,0.70625,eligible,51
+Yellowstone National Park,Elk,winter,evening,high,0.86875,eligible,51
+Yellowstone National Park,Elk,winter,night,low,0.6,eligible,51
+Yellowstone National Park,Elk,spring,unknown,high,0.79375,eligible,51
+Yellowstone National Park,Elk,spring,early_morning,low,0.64375,eligible,51
+Yellowstone National Park,Elk,spring,morning,high,0.96875,eligible,51
+Yellowstone National Park,Elk,spring,afternoon,high,0.875,eligible,51
+Yellowstone National Park,Elk,spring,evening,high,0.9875,eligible,51
+Yellowstone National Park,Elk,spring,night,low,0.6,eligible,51
+Yellowstone National Park,Elk,summer,unknown,high,0.75,eligible,51
+Yellowstone National Park,Elk,summer,early_morning,medium,0.475,eligible,51
+Yellowstone National Park,Elk,summer,morning,high,0.8125,eligible,51
+Yellowstone National Park,Elk,summer,afternoon,high,0.7875,eligible,51
+Yellowstone National Park,Elk,summer,evening,high,0.9375,eligible,51
+Yellowstone National Park,Elk,summer,night,low,0.66875,eligible,51
+Yellowstone National Park,Elk,fall,unknown,high,0.5,eligible,51
+Yellowstone National Park,Elk,fall,early_morning,low,0.43125,eligible,51
+Yellowstone National Park,Elk,fall,morning,high,0.63125,eligible,51
+Yellowstone National Park,Elk,fall,afternoon,high,0.61875,eligible,51
+Yellowstone National Park,Elk,fall,evening,high,0.575,eligible,51
+Yellowstone National Park,Elk,fall,night,low,0.575,eligible,51
+Yellowstone National Park,Bison,winter,unknown,high,0.48125,eligible,47
+Yellowstone National Park,Bison,winter,early_morning,low,0.61875,eligible,47
+Yellowstone National Park,Bison,winter,morning,medium,0.55,eligible,47
+Yellowstone National Park,Bison,winter,afternoon,high,0.98125,eligible,47
+Yellowstone National Park,Bison,winter,evening,medium,0.36875,eligible,47
+Yellowstone National Park,Bison,winter,night,low,0.63125,eligible,47
+Yellowstone National Park,Bison,spring,unknown,high,0.54375,eligible,47
+Yellowstone National Park,Bison,spring,early_morning,low,0.775,eligible,47
+Yellowstone National Park,Bison,spring,morning,high,0.98125,eligible,47
+Yellowstone National Park,Bison,spring,afternoon,high,0.99375,eligible,47
+Yellowstone National Park,Bison,spring,evening,low,0.68125,eligible,47
+Yellowstone National Park,Bison,spring,night,low,0.7,eligible,47
+Yellowstone National Park,Bison,summer,unknown,high,0.7,eligible,47
+Yellowstone National Park,Bison,summer,early_morning,low,0.55625,eligible,47
+Yellowstone National Park,Bison,summer,morning,high,0.86875,eligible,47
+Yellowstone National Park,Bison,summer,afternoon,high,0.925,eligible,47
+Yellowstone National Park,Bison,summer,evening,high,0.7625,eligible,47
+Yellowstone National Park,Bison,summer,night,low,0.70625,eligible,47
+Yellowstone National Park,Bison,fall,unknown,high,0.4625,eligible,47
+Yellowstone National Park,Bison,fall,early_morning,low,0.55,eligible,47
+Yellowstone National Park,Bison,fall,morning,high,0.63125,eligible,47
+Yellowstone National Park,Bison,fall,afternoon,high,0.7875,eligible,47
+Yellowstone National Park,Bison,fall,evening,medium,0.4,eligible,47
+Yellowstone National Park,Bison,fall,night,low,0.6125,eligible,47
+Yellowstone National Park,Gray Wolf,winter,unknown,high,0.4625,eligible,75
+Yellowstone National Park,Gray Wolf,winter,early_morning,low,0.5375,eligible,75
+Yellowstone National Park,Gray Wolf,winter,morning,high,0.50625,eligible,75
+Yellowstone National Park,Gray Wolf,winter,afternoon,high,0.6875,eligible,75
+Yellowstone National Park,Gray Wolf,winter,evening,high,0.525,eligible,75
+Yellowstone National Park,Gray Wolf,winter,night,low,0.63125,eligible,75
+Yellowstone National Park,Gray Wolf,spring,unknown,high,0.50625,eligible,75
+Yellowstone National Park,Gray Wolf,spring,early_morning,low,0.50625,eligible,75
+Yellowstone National Park,Gray Wolf,spring,morning,high,0.76875,eligible,75
+Yellowstone National Park,Gray Wolf,spring,afternoon,high,0.59375,eligible,75
+Yellowstone National Park,Gray Wolf,spring,evening,high,0.5625,eligible,75
+Yellowstone National Park,Gray Wolf,spring,night,low,0.6125,eligible,75
+Yellowstone National Park,Gray Wolf,summer,unknown,high,0.5375,eligible,75
+Yellowstone National Park,Gray Wolf,summer,early_morning,low,0.49375,eligible,75
+Yellowstone National Park,Gray Wolf,summer,morning,high,0.7125,eligible,75
+Yellowstone National Park,Gray Wolf,summer,afternoon,high,0.5375,eligible,75
+Yellowstone National Park,Gray Wolf,summer,evening,high,0.6875,eligible,75
+Yellowstone National Park,Gray Wolf,summer,night,low,0.73125,eligible,75
+Yellowstone National Park,Gray Wolf,fall,unknown,high,0.4,eligible,75
+Yellowstone National Park,Gray Wolf,fall,early_morning,low,0.44375,eligible,75
+Yellowstone National Park,Gray Wolf,fall,morning,high,0.49375,eligible,75
+Yellowstone National Park,Gray Wolf,fall,afternoon,high,0.56875,eligible,75
+Yellowstone National Park,Gray Wolf,fall,evening,high,0.3875,eligible,75
+Yellowstone National Park,Gray Wolf,fall,night,low,0.5875,eligible,75
+Yellowstone National Park,Mountain Goat,winter,unknown,high,0.53125,eligible,61
+Yellowstone National Park,Mountain Goat,winter,early_morning,low,0.63125,eligible,61
+Yellowstone National Park,Mountain Goat,winter,morning,high,0.6875,eligible,61
+Yellowstone National Park,Mountain Goat,winter,afternoon,high,0.6875,eligible,61
+Yellowstone National Park,Mountain Goat,winter,evening,high,0.625,eligible,61
+Yellowstone National Park,Mountain Goat,winter,night,low,0.625,eligible,61
+Yellowstone National Park,Mountain Goat,spring,unknown,high,0.45625,eligible,61
+Yellowstone National Park,Mountain Goat,spring,early_morning,low,0.6625,eligible,61
+Yellowstone National Park,Mountain Goat,spring,morning,high,0.825,eligible,61
+Yellowstone National Park,Mountain Goat,spring,afternoon,medium,0.6125,eligible,61
+Yellowstone National Park,Mountain Goat,spring,evening,high,0.55,eligible,61
+Yellowstone National Park,Mountain Goat,spring,night,low,0.58125,eligible,61
+Yellowstone National Park,Mountain Goat,summer,unknown,high,0.84375,eligible,61
+Yellowstone National Park,Mountain Goat,summer,early_morning,low,0.55625,eligible,61
+Yellowstone National Park,Mountain Goat,summer,morning,high,0.9875,eligible,61
+Yellowstone National Park,Mountain Goat,summer,afternoon,high,1.0,eligible,61
+Yellowstone National Park,Mountain Goat,summer,evening,high,0.98125,eligible,61
+Yellowstone National Park,Mountain Goat,summer,night,low,0.6,eligible,61
+Yellowstone National Park,Mountain Goat,fall,unknown,high,0.59375,eligible,61
+Yellowstone National Park,Mountain Goat,fall,early_morning,low,0.5,eligible,61
+Yellowstone National Park,Mountain Goat,fall,morning,high,0.7,eligible,61
+Yellowstone National Park,Mountain Goat,fall,afternoon,high,0.85625,eligible,61
+Yellowstone National Park,Mountain Goat,fall,evening,high,0.54375,eligible,61
+Yellowstone National Park,Mountain Goat,fall,night,low,0.55,eligible,61
+Yellowstone National Park,Bighorn Sheep,winter,unknown,high,0.5125,eligible,56
+Yellowstone National Park,Bighorn Sheep,winter,early_morning,low,0.66875,eligible,56
+Yellowstone National Park,Bighorn Sheep,winter,morning,high,0.60625,eligible,56
+Yellowstone National Park,Bighorn Sheep,winter,afternoon,high,0.8,eligible,56
+Yellowstone National Park,Bighorn Sheep,winter,evening,high,0.49375,eligible,56
+Yellowstone National Park,Bighorn Sheep,winter,night,low,0.65625,eligible,56
+Yellowstone National Park,Bighorn Sheep,spring,unknown,high,0.5625,eligible,56
+Yellowstone National Park,Bighorn Sheep,spring,early_morning,low,0.7125,eligible,56
+Yellowstone National Park,Bighorn Sheep,spring,morning,high,0.90625,eligible,56
+Yellowstone National Park,Bighorn Sheep,spring,afternoon,high,0.75,eligible,56
+Yellowstone National Park,Bighorn Sheep,spring,evening,high,0.50625,eligible,56
+Yellowstone National Park,Bighorn Sheep,spring,night,low,0.65625,eligible,56
+Yellowstone National Park,Bighorn Sheep,summer,unknown,high,0.6375,eligible,56
+Yellowstone National Park,Bighorn Sheep,summer,early_morning,low,0.51875,eligible,56
+Yellowstone National Park,Bighorn Sheep,summer,morning,high,0.8625,eligible,56
+Yellowstone National Park,Bighorn Sheep,summer,afternoon,high,0.80625,eligible,56
+Yellowstone National Park,Bighorn Sheep,summer,evening,high,0.675,eligible,56
+Yellowstone National Park,Bighorn Sheep,summer,night,low,0.7125,eligible,56
+Yellowstone National Park,Bighorn Sheep,fall,unknown,high,0.44375,eligible,56
+Yellowstone National Park,Bighorn Sheep,fall,early_morning,low,0.5375,eligible,56
+Yellowstone National Park,Bighorn Sheep,fall,morning,high,0.58125,eligible,56
+Yellowstone National Park,Bighorn Sheep,fall,afternoon,high,0.6375,eligible,56
+Yellowstone National Park,Bighorn Sheep,fall,evening,medium,0.39375,eligible,56
+Yellowstone National Park,Bighorn Sheep,fall,night,low,0.6,eligible,56
+Yellowstone National Park,Bald Eagle,winter,unknown,high,0.51875,eligible,51
+Yellowstone National Park,Bald Eagle,winter,early_morning,low,0.65,eligible,51
+Yellowstone National Park,Bald Eagle,winter,morning,high,0.76875,eligible,51
+Yellowstone National Park,Bald Eagle,winter,afternoon,high,0.61875,eligible,51
+Yellowstone National Park,Bald Eagle,winter,evening,high,0.53125,eligible,51
+Yellowstone National Park,Bald Eagle,winter,night,low,0.54375,eligible,51
+Yellowstone National Park,Bald Eagle,spring,unknown,low,0.6125,eligible,51
+Yellowstone National Park,Bald Eagle,spring,early_morning,low,0.81875,eligible,51
+Yellowstone National Park,Bald Eagle,spring,morning,low,0.54375,eligible,51
+Yellowstone National Park,Bald Eagle,spring,afternoon,low,0.7625,eligible,51
+Yellowstone National Park,Bald Eagle,spring,evening,medium,0.36875,eligible,51
+Yellowstone National Park,Bald Eagle,spring,night,low,0.675,eligible,51
+Yellowstone National Park,Bald Eagle,summer,unknown,high,0.6375,eligible,51
+Yellowstone National Park,Bald Eagle,summer,early_morning,low,0.4875,eligible,51
+Yellowstone National Park,Bald Eagle,summer,morning,high,0.80625,eligible,51
+Yellowstone National Park,Bald Eagle,summer,afternoon,high,0.61875,eligible,51
+Yellowstone National Park,Bald Eagle,summer,evening,high,0.76875,eligible,51
+Yellowstone National Park,Bald Eagle,summer,night,low,0.6625,eligible,51
+Yellowstone National Park,Bald Eagle,fall,unknown,high,0.39375,eligible,51
+Yellowstone National Park,Bald Eagle,fall,early_morning,low,0.6,eligible,51
+Yellowstone National Park,Bald Eagle,fall,morning,high,0.525,eligible,51
+Yellowstone National Park,Bald Eagle,fall,afternoon,high,0.475,eligible,51
+Yellowstone National Park,Bald Eagle,fall,evening,medium,0.5,eligible,51
+Yellowstone National Park,Bald Eagle,fall,night,low,0.54375,eligible,51
+Yellowstone National Park,Coyote,winter,unknown,high,0.6625,eligible,63
+Yellowstone National Park,Coyote,winter,early_morning,low,0.64375,eligible,63
+Yellowstone National Park,Coyote,winter,morning,high,0.8375,eligible,63
+Yellowstone National Park,Coyote,winter,afternoon,high,0.725,eligible,63
+Yellowstone National Park,Coyote,winter,evening,high,0.78125,eligible,63
+Yellowstone National Park,Coyote,winter,night,low,0.7125,eligible,63
+Yellowstone National Park,Coyote,spring,unknown,high,0.61875,eligible,63
+Yellowstone National Park,Coyote,spring,early_morning,low,0.6875,eligible,63
+Yellowstone National Park,Coyote,spring,morning,high,0.8875,eligible,63
+Yellowstone National Park,Coyote,spring,afternoon,medium,0.6125,eligible,63
+Yellowstone National Park,Coyote,spring,evening,high,0.89375,eligible,63
+Yellowstone National Park,Coyote,spring,night,low,0.6125,eligible,63
+Yellowstone National Park,Coyote,summer,unknown,high,0.4875,eligible,63
+Yellowstone National Park,Coyote,summer,early_morning,low,0.7,eligible,63
+Yellowstone National Park,Coyote,summer,morning,high,0.58125,eligible,63
+Yellowstone National Park,Coyote,summer,afternoon,high,0.575,eligible,63
+Yellowstone National Park,Coyote,summer,evening,high,0.50625,eligible,63
+Yellowstone National Park,Coyote,summer,night,low,0.66875,eligible,63
+Yellowstone National Park,Coyote,fall,unknown,high,0.5125,eligible,63
+Yellowstone National Park,Coyote,fall,early_morning,low,0.66875,eligible,63
+Yellowstone National Park,Coyote,fall,morning,high,0.6625,eligible,63
+Yellowstone National Park,Coyote,fall,afternoon,high,0.50625,eligible,63
+Yellowstone National Park,Coyote,fall,evening,high,0.58125,eligible,63
+Yellowstone National Park,Coyote,fall,night,low,0.65,eligible,63
+Grand Teton National Park,Grizzly Bear,winter,unknown,high,0.4875,eligible,47
+Grand Teton National Park,Grizzly Bear,winter,early_morning,low,0.575,eligible,47
+Grand Teton National Park,Grizzly Bear,winter,morning,high,0.7,eligible,47
+Grand Teton National Park,Grizzly Bear,winter,afternoon,high,0.4625,eligible,47
+Grand Teton National Park,Grizzly Bear,winter,evening,high,0.55625,eligible,47
+Grand Teton National Park,Grizzly Bear,winter,night,low,0.5375,eligible,47
+Grand Teton National Park,Grizzly Bear,spring,unknown,high,0.48125,eligible,47
+Grand Teton National Park,Grizzly Bear,spring,early_morning,low,0.61875,eligible,47
+Grand Teton National Park,Grizzly Bear,spring,morning,high,0.525,eligible,47
+Grand Teton National Park,Grizzly Bear,spring,afternoon,high,0.54375,eligible,47
+Grand Teton National Park,Grizzly Bear,spring,evening,high,0.5875,eligible,47
+Grand Teton National Park,Grizzly Bear,spring,night,low,0.51875,eligible,47
+Grand Teton National Park,Grizzly Bear,summer,unknown,high,0.75,eligible,47
+Grand Teton National Park,Grizzly Bear,summer,early_morning,low,0.4,eligible,47
+Grand Teton National Park,Grizzly Bear,summer,morning,high,0.86875,eligible,47
+Grand Teton National Park,Grizzly Bear,summer,afternoon,high,0.63125,eligible,47
+Grand Teton National Park,Grizzly Bear,summer,evening,high,0.875,eligible,47
+Grand Teton National Park,Grizzly Bear,summer,night,low,0.5125,eligible,47
+Grand Teton National Park,Grizzly Bear,fall,unknown,high,0.6875,eligible,47
+Grand Teton National Park,Grizzly Bear,fall,early_morning,high,0.425,eligible,47
+Grand Teton National Park,Grizzly Bear,fall,morning,high,0.8375,eligible,47
+Grand Teton National Park,Grizzly Bear,fall,afternoon,high,0.5625,eligible,47
+Grand Teton National Park,Grizzly Bear,fall,evening,high,0.7875,eligible,47
+Grand Teton National Park,Grizzly Bear,fall,night,low,0.475,eligible,47
+Grand Teton National Park,Black Bear,winter,unknown,low,0.53125,eligible,31
+Grand Teton National Park,Black Bear,winter,early_morning,low,0.69375,eligible,31
+Grand Teton National Park,Black Bear,winter,morning,high,0.51875,eligible,31
+Grand Teton National Park,Black Bear,winter,afternoon,high,0.44375,eligible,31
+Grand Teton National Park,Black Bear,winter,evening,low,0.41875,eligible,31
+Grand Teton National Park,Black Bear,winter,night,low,0.58125,eligible,31
+Grand Teton National Park,Black Bear,spring,unknown,low,0.5375,eligible,31
+Grand Teton National Park,Black Bear,spring,early_morning,low,0.71875,eligible,31
+Grand Teton National Park,Black Bear,spring,morning,high,0.46875,eligible,31
+Grand Teton National Park,Black Bear,spring,afternoon,medium,0.46875,eligible,31
+Grand Teton National Park,Black Bear,spring,evening,high,0.375,eligible,31
+Grand Teton National Park,Black Bear,spring,night,low,0.55625,eligible,31
+Grand Teton National Park,Black Bear,summer,unknown,high,0.65,eligible,31
+Grand Teton National Park,Black Bear,summer,early_morning,low,0.53125,eligible,31
+Grand Teton National Park,Black Bear,summer,morning,high,0.575,eligible,31
+Grand Teton National Park,Black Bear,summer,afternoon,high,0.95625,eligible,31
+Grand Teton National Park,Black Bear,summer,evening,high,0.75625,eligible,31
+Grand Teton National Park,Black Bear,summer,night,low,0.475,eligible,31
+Grand Teton National Park,Black Bear,fall,unknown,high,0.35625,eligible,31
+Grand Teton National Park,Black Bear,fall,early_morning,low,0.475,eligible,31
+Grand Teton National Park,Black Bear,fall,morning,medium,0.425,eligible,31
+Grand Teton National Park,Black Bear,fall,afternoon,high,0.49375,eligible,31
+Grand Teton National Park,Black Bear,fall,evening,high,0.4125,eligible,31
+Grand Teton National Park,Black Bear,fall,night,low,0.51875,eligible,31
+Grand Teton National Park,Moose,winter,unknown,low,0.5125,eligible,28
+Grand Teton National Park,Moose,winter,early_morning,low,0.7,eligible,28
+Grand Teton National Park,Moose,winter,morning,high,0.75625,eligible,28
+Grand Teton National Park,Moose,winter,afternoon,low,0.65625,eligible,28
+Grand Teton National Park,Moose,winter,evening,low,0.45625,eligible,28
+Grand Teton National Park,Moose,winter,night,low,0.63125,eligible,28
+Grand Teton National Park,Moose,spring,unknown,low,0.53125,eligible,28
+Grand Teton National Park,Moose,spring,early_morning,low,0.75,eligible,28
+Grand Teton National Park,Moose,spring,morning,high,0.83125,eligible,28
+Grand Teton National Park,Moose,spring,afternoon,low,0.6625,eligible,28
+Grand Teton National Park,Moose,spring,evening,low,0.43125,eligible,28
+Grand Teton National Park,Moose,spring,night,low,0.64375,eligible,28
+Grand Teton National Park,Moose,summer,unknown,high,0.6125,eligible,28
+Grand Teton National Park,Moose,summer,early_morning,low,0.6125,eligible,28
+Grand Teton National Park,Moose,summer,morning,high,0.81875,eligible,28
+Grand Teton National Park,Moose,summer,afternoon,high,0.6875,eligible,28
+Grand Teton National Park,Moose,summer,evening,high,0.59375,eligible,28
+Grand Teton National Park,Moose,summer,night,low,0.55625,eligible,28
+Grand Teton National Park,Moose,fall,unknown,high,0.44375,eligible,28
+Grand Teton National Park,Moose,fall,early_morning,low,0.5875,eligible,28
+Grand Teton National Park,Moose,fall,morning,high,0.69375,eligible,28
+Grand Teton National Park,Moose,fall,afternoon,low,0.5,eligible,28
+Grand Teton National Park,Moose,fall,evening,high,0.4,eligible,28
+Grand Teton National Park,Moose,fall,night,low,0.6,eligible,28
+Grand Teton National Park,Elk,winter,unknown,low,0.4625,eligible,81
+Grand Teton National Park,Elk,winter,early_morning,low,0.6125,eligible,81
+Grand Teton National Park,Elk,winter,morning,high,0.73125,eligible,81
+Grand Teton National Park,Elk,winter,afternoon,low,0.45625,eligible,81
+Grand Teton National Park,Elk,winter,evening,low,0.59375,eligible,81
+Grand Teton National Park,Elk,winter,night,low,0.66875,eligible,81
+Grand Teton National Park,Elk,spring,unknown,low,0.54375,eligible,81
+Grand Teton National Park,Elk,spring,early_morning,low,0.71875,eligible,81
+Grand Teton National Park,Elk,spring,morning,medium,0.5625,eligible,81
+Grand Teton National Park,Elk,spring,afternoon,low,0.3875,eligible,81
+Grand Teton National Park,Elk,spring,evening,low,0.60625,eligible,81
+Grand Teton National Park,Elk,spring,night,low,0.73125,eligible,81
+Grand Teton National Park,Elk,summer,unknown,high,0.5875,eligible,81
+Grand Teton National Park,Elk,summer,early_morning,medium,0.4375,eligible,81
+Grand Teton National Park,Elk,summer,morning,high,0.58125,eligible,81
+Grand Teton National Park,Elk,summer,afternoon,high,0.6875,eligible,81
+Grand Teton National Park,Elk,summer,evening,high,0.75625,eligible,81
+Grand Teton National Park,Elk,summer,night,low,0.66875,eligible,81
+Grand Teton National Park,Elk,fall,unknown,high,0.425,eligible,81
+Grand Teton National Park,Elk,fall,early_morning,medium,0.4625,eligible,81
+Grand Teton National Park,Elk,fall,morning,high,0.61875,eligible,81
+Grand Teton National Park,Elk,fall,afternoon,high,0.48125,eligible,81
+Grand Teton National Park,Elk,fall,evening,high,0.44375,eligible,81
+Grand Teton National Park,Elk,fall,night,low,0.6125,eligible,81
+Grand Teton National Park,Gray Wolf,winter,unknown,low,0.6625,eligible,12
+Grand Teton National Park,Gray Wolf,winter,early_morning,low,0.75,eligible,12
+Grand Teton National Park,Gray Wolf,winter,morning,high,0.41875,eligible,12
+Grand Teton National Park,Gray Wolf,winter,afternoon,low,0.63125,eligible,12
+Grand Teton National Park,Gray Wolf,winter,evening,low,0.5625,eligible,12
+Grand Teton National Park,Gray Wolf,winter,night,low,0.73125,eligible,12
+Grand Teton National Park,Gray Wolf,spring,unknown,low,0.5875,eligible,12
+Grand Teton National Park,Gray Wolf,spring,early_morning,low,0.7,eligible,12
+Grand Teton National Park,Gray Wolf,spring,morning,medium,0.4125,eligible,12
+Grand Teton National Park,Gray Wolf,spring,afternoon,low,0.4375,eligible,12
+Grand Teton National Park,Gray Wolf,spring,evening,low,0.4625,eligible,12
+Grand Teton National Park,Gray Wolf,spring,night,low,0.68125,eligible,12
+Grand Teton National Park,Gray Wolf,summer,unknown,low,0.63125,eligible,12
+Grand Teton National Park,Gray Wolf,summer,early_morning,low,0.69375,eligible,12
+Grand Teton National Park,Gray Wolf,summer,morning,low,0.51875,eligible,12
+Grand Teton National Park,Gray Wolf,summer,afternoon,low,0.5875,eligible,12
+Grand Teton National Park,Gray Wolf,summer,evening,high,0.475,eligible,12
+Grand Teton National Park,Gray Wolf,summer,night,low,0.79375,eligible,12
+Grand Teton National Park,Gray Wolf,fall,unknown,low,0.4,eligible,12
+Grand Teton National Park,Gray Wolf,fall,early_morning,low,0.5375,eligible,12
+Grand Teton National Park,Gray Wolf,fall,morning,low,0.375,eligible,12
+Grand Teton National Park,Gray Wolf,fall,afternoon,high,0.36875,eligible,12
+Grand Teton National Park,Gray Wolf,fall,evening,high,0.38125,eligible,12
+Grand Teton National Park,Gray Wolf,fall,night,low,0.675,eligible,12
+Grand Teton National Park,Mountain Goat,winter,unknown,Insufficient data,0.0,eligible,3
+Grand Teton National Park,Mountain Goat,winter,early_morning,Insufficient data,0.0,eligible,3
+Grand Teton National Park,Mountain Goat,winter,morning,Insufficient data,0.0,eligible,3
+Grand Teton National Park,Mountain Goat,winter,afternoon,Insufficient data,0.0,eligible,3
+Grand Teton National Park,Mountain Goat,winter,evening,Insufficient data,0.0,eligible,3
+Grand Teton National Park,Mountain Goat,winter,night,Insufficient data,0.0,eligible,3
+Grand Teton National Park,Mountain Goat,spring,unknown,Insufficient data,0.0,eligible,3
+Grand Teton National Park,Mountain Goat,spring,early_morning,Insufficient data,0.0,eligible,3
+Grand Teton National Park,Mountain Goat,spring,morning,Insufficient data,0.0,eligible,3
+Grand Teton National Park,Mountain Goat,spring,afternoon,Insufficient data,0.0,eligible,3
+Grand Teton National Park,Mountain Goat,spring,evening,Insufficient data,0.0,eligible,3
+Grand Teton National Park,Mountain Goat,spring,night,Insufficient data,0.0,eligible,3
+Grand Teton National Park,Mountain Goat,summer,unknown,Insufficient data,0.0,eligible,3
+Grand Teton National Park,Mountain Goat,summer,early_morning,Insufficient data,0.0,eligible,3
+Grand Teton National Park,Mountain Goat,summer,morning,Insufficient data,0.0,eligible,3
+Grand Teton National Park,Mountain Goat,summer,afternoon,Insufficient data,0.0,eligible,3
+Grand Teton National Park,Mountain Goat,summer,evening,Insufficient data,0.0,eligible,3
+Grand Teton National Park,Mountain Goat,summer,night,Insufficient data,0.0,eligible,3
+Grand Teton National Park,Mountain Goat,fall,unknown,Insufficient data,0.0,eligible,3
+Grand Teton National Park,Mountain Goat,fall,early_morning,Insufficient data,0.0,eligible,3
+Grand Teton National Park,Mountain Goat,fall,morning,Insufficient data,0.0,eligible,3
+Grand Teton National Park,Mountain Goat,fall,afternoon,Insufficient data,0.0,eligible,3
+Grand Teton National Park,Mountain Goat,fall,evening,Insufficient data,0.0,eligible,3
+Grand Teton National Park,Mountain Goat,fall,night,Insufficient data,0.0,eligible,3
+Grand Teton National Park,Bighorn Sheep,winter,unknown,high,0.425,eligible,45
+Grand Teton National Park,Bighorn Sheep,winter,early_morning,low,0.65,eligible,45
+Grand Teton National Park,Bighorn Sheep,winter,morning,high,0.58125,eligible,45
+Grand Teton National Park,Bighorn Sheep,winter,afternoon,high,0.55625,eligible,45
+Grand Teton National Park,Bighorn Sheep,winter,evening,low,0.45,eligible,45
+Grand Teton National Park,Bighorn Sheep,winter,night,low,0.6,eligible,45
+Grand Teton National Park,Bighorn Sheep,spring,unknown,high,0.475,eligible,45
+Grand Teton National Park,Bighorn Sheep,spring,early_morning,low,0.675,eligible,45
+Grand Teton National Park,Bighorn Sheep,spring,morning,high,0.6375,eligible,45
+Grand Teton National Park,Bighorn Sheep,spring,afternoon,high,0.575,eligible,45
+Grand Teton National Park,Bighorn Sheep,spring,evening,high,0.49375,eligible,45
+Grand Teton National Park,Bighorn Sheep,spring,night,low,0.58125,eligible,45
+Grand Teton National Park,Bighorn Sheep,summer,unknown,high,0.525,eligible,45
+Grand Teton National Park,Bighorn Sheep,summer,early_morning,low,0.575,eligible,45
+Grand Teton National Park,Bighorn Sheep,summer,morning,high,0.58125,eligible,45
+Grand Teton National Park,Bighorn Sheep,summer,afternoon,high,0.65625,eligible,45
+Grand Teton National Park,Bighorn Sheep,summer,evening,high,0.5875,eligible,45
+Grand Teton National Park,Bighorn Sheep,summer,night,low,0.63125,eligible,45
+Grand Teton National Park,Bighorn Sheep,fall,unknown,high,0.49375,eligible,45
+Grand Teton National Park,Bighorn Sheep,fall,early_morning,low,0.425,eligible,45
+Grand Teton National Park,Bighorn Sheep,fall,morning,high,0.625,eligible,45
+Grand Teton National Park,Bighorn Sheep,fall,afternoon,high,0.55,eligible,45
+Grand Teton National Park,Bighorn Sheep,fall,evening,high,0.5125,eligible,45
+Grand Teton National Park,Bighorn Sheep,fall,night,low,0.5375,eligible,45
+Grand Teton National Park,Bald Eagle,winter,unknown,low,0.55625,eligible,30
+Grand Teton National Park,Bald Eagle,winter,early_morning,low,0.7375,eligible,30
+Grand Teton National Park,Bald Eagle,winter,morning,high,0.56875,eligible,30
+Grand Teton National Park,Bald Eagle,winter,afternoon,low,0.6,eligible,30
+Grand Teton National Park,Bald Eagle,winter,evening,low,0.44375,eligible,30
+Grand Teton National Park,Bald Eagle,winter,night,low,0.55625,eligible,30
+Grand Teton National Park,Bald Eagle,spring,unknown,low,0.5,eligible,30
+Grand Teton National Park,Bald Eagle,spring,early_morning,low,0.75,eligible,30
+Grand Teton National Park,Bald Eagle,spring,morning,high,0.4,eligible,30
+Grand Teton National Park,Bald Eagle,spring,afternoon,low,0.44375,eligible,30
+Grand Teton National Park,Bald Eagle,spring,evening,high,0.4875,eligible,30
+Grand Teton National Park,Bald Eagle,spring,night,low,0.5625,eligible,30
+Grand Teton National Park,Bald Eagle,summer,unknown,high,0.575,eligible,30
+Grand Teton National Park,Bald Eagle,summer,early_morning,low,0.525,eligible,30
+Grand Teton National Park,Bald Eagle,summer,morning,high,0.49375,eligible,30
+Grand Teton National Park,Bald Eagle,summer,afternoon,high,0.6125,eligible,30
+Grand Teton National Park,Bald Eagle,summer,evening,high,0.78125,eligible,30
+Grand Teton National Park,Bald Eagle,summer,night,low,0.55,eligible,30
+Grand Teton National Park,Bald Eagle,fall,unknown,high,0.49375,eligible,30
+Grand Teton National Park,Bald Eagle,fall,early_morning,low,0.51875,eligible,30
+Grand Teton National Park,Bald Eagle,fall,morning,high,0.53125,eligible,30
+Grand Teton National Park,Bald Eagle,fall,afternoon,high,0.60625,eligible,30
+Grand Teton National Park,Bald Eagle,fall,evening,high,0.5625,eligible,30
+Grand Teton National Park,Bald Eagle,fall,night,low,0.50625,eligible,30
+Grand Teton National Park,Coyote,winter,unknown,high,0.48125,eligible,60
+Grand Teton National Park,Coyote,winter,early_morning,low,0.725,eligible,60
+Grand Teton National Park,Coyote,winter,morning,high,0.6375,eligible,60
+Grand Teton National Park,Coyote,winter,afternoon,high,0.45625,eligible,60
+Grand Teton National Park,Coyote,winter,evening,high,0.63125,eligible,60
+Grand Teton National Park,Coyote,winter,night,low,0.68125,eligible,60
+Grand Teton National Park,Coyote,spring,unknown,high,0.44375,eligible,60
+Grand Teton National Park,Coyote,spring,early_morning,low,0.775,eligible,60
+Grand Teton National Park,Coyote,spring,morning,medium,0.53125,eligible,60
+Grand Teton National Park,Coyote,spring,afternoon,medium,0.55,eligible,60
+Grand Teton National Park,Coyote,spring,evening,high,0.8375,eligible,60
+Grand Teton National Park,Coyote,spring,night,low,0.5875,eligible,60
+Grand Teton National Park,Coyote,summer,unknown,high,0.625,eligible,60
+Grand Teton National Park,Coyote,summer,early_morning,low,0.65625,eligible,60
+Grand Teton National Park,Coyote,summer,morning,high,0.725,eligible,60
+Grand Teton National Park,Coyote,summer,afternoon,high,0.79375,eligible,60
+Grand Teton National Park,Coyote,summer,evening,high,0.575,eligible,60
+Grand Teton National Park,Coyote,summer,night,low,0.61875,eligible,60
+Grand Teton National Park,Coyote,fall,unknown,high,0.74375,eligible,60
+Grand Teton National Park,Coyote,fall,early_morning,low,0.525,eligible,60
+Grand Teton National Park,Coyote,fall,morning,high,0.80625,eligible,60
+Grand Teton National Park,Coyote,fall,afternoon,high,0.78125,eligible,60
+Grand Teton National Park,Coyote,fall,evening,high,0.90625,eligible,60
+Grand Teton National Park,Coyote,fall,night,low,0.5125,eligible,60
+Glacier National Park,Black Bear,winter,unknown,low,0.6375,eligible,40
+Glacier National Park,Black Bear,winter,early_morning,low,0.55,eligible,40
+Glacier National Park,Black Bear,winter,morning,low,0.525,eligible,40
+Glacier National Park,Black Bear,winter,afternoon,low,0.54375,eligible,40
+Glacier National Park,Black Bear,winter,evening,low,0.5875,eligible,40
+Glacier National Park,Black Bear,winter,night,low,0.625,eligible,40
+Glacier National Park,Black Bear,spring,unknown,low,0.5125,eligible,40
+Glacier National Park,Black Bear,spring,early_morning,low,0.4875,eligible,40
+Glacier National Park,Black Bear,spring,morning,low,0.40625,eligible,40
+Glacier National Park,Black Bear,spring,afternoon,high,0.43125,eligible,40
+Glacier National Park,Black Bear,spring,evening,low,0.49375,eligible,40
+Glacier National Park,Black Bear,spring,night,low,0.4625,eligible,40
+Glacier National Park,Black Bear,summer,unknown,high,0.8375,eligible,40
+Glacier National Park,Black Bear,summer,early_morning,medium,0.54375,eligible,40
+Glacier National Park,Black Bear,summer,morning,high,0.80625,eligible,40
+Glacier National Park,Black Bear,summer,afternoon,high,0.9125,eligible,40
+Glacier National Park,Black Bear,summer,evening,high,0.93125,eligible,40
+Glacier National Park,Black Bear,summer,night,high,0.76875,eligible,40
+Glacier National Park,Black Bear,fall,unknown,low,0.475,eligible,40
+Glacier National Park,Black Bear,fall,early_morning,low,0.45,eligible,40
+Glacier National Park,Black Bear,fall,morning,low,0.51875,eligible,40
+Glacier National Park,Black Bear,fall,afternoon,low,0.46875,eligible,40
+Glacier National Park,Black Bear,fall,evening,medium,0.41875,eligible,40
+Glacier National Park,Black Bear,fall,night,low,0.4875,eligible,40
+Glacier National Park,Moose,winter,unknown,low,0.61875,eligible,35
+Glacier National Park,Moose,winter,early_morning,low,0.6,eligible,35
+Glacier National Park,Moose,winter,morning,high,0.45,eligible,35
+Glacier National Park,Moose,winter,afternoon,low,0.6,eligible,35
+Glacier National Park,Moose,winter,evening,low,0.5875,eligible,35
+Glacier National Park,Moose,winter,night,low,0.66875,eligible,35
+Glacier National Park,Moose,spring,unknown,low,0.55,eligible,35
+Glacier National Park,Moose,spring,early_morning,low,0.59375,eligible,35
+Glacier National Park,Moose,spring,morning,high,0.4625,eligible,35
+Glacier National Park,Moose,spring,afternoon,low,0.61875,eligible,35
+Glacier National Park,Moose,spring,evening,low,0.55,eligible,35
+Glacier National Park,Moose,spring,night,low,0.54375,eligible,35
+Glacier National Park,Moose,summer,unknown,high,0.73125,eligible,35
+Glacier National Park,Moose,summer,early_morning,medium,0.50625,eligible,35
+Glacier National Park,Moose,summer,morning,high,0.8,eligible,35
+Glacier National Park,Moose,summer,afternoon,high,0.99375,eligible,35
+Glacier National Park,Moose,summer,evening,high,0.68125,eligible,35
+Glacier National Park,Moose,summer,night,medium,0.35,eligible,35
+Glacier National Park,Moose,fall,unknown,low,0.575,eligible,35
+Glacier National Park,Moose,fall,early_morning,low,0.54375,eligible,35
+Glacier National Park,Moose,fall,morning,low,0.51875,eligible,35
+Glacier National Park,Moose,fall,afternoon,low,0.6375,eligible,35
+Glacier National Park,Moose,fall,evening,low,0.43125,eligible,35
+Glacier National Park,Moose,fall,night,low,0.58125,eligible,35
+Glacier National Park,Elk,winter,unknown,low,0.73125,eligible,28
+Glacier National Park,Elk,winter,early_morning,low,0.5625,eligible,28
+Glacier National Park,Elk,winter,morning,low,0.5,eligible,28
+Glacier National Park,Elk,winter,afternoon,low,0.76875,eligible,28
+Glacier National Park,Elk,winter,evening,low,0.69375,eligible,28
+Glacier National Park,Elk,winter,night,low,0.78125,eligible,28
+Glacier National Park,Elk,spring,unknown,low,0.7625,eligible,28
+Glacier National Park,Elk,spring,early_morning,low,0.61875,eligible,28
+Glacier National Park,Elk,spring,morning,low,0.54375,eligible,28
+Glacier National Park,Elk,spring,afternoon,low,0.7875,eligible,28
+Glacier National Park,Elk,spring,evening,low,0.74375,eligible,28
+Glacier National Park,Elk,spring,night,low,0.73125,eligible,28
+Glacier National Park,Elk,summer,unknown,high,0.5875,eligible,28
+Glacier National Park,Elk,summer,early_morning,medium,0.83125,eligible,28
+Glacier National Park,Elk,summer,morning,medium,0.43125,eligible,28
+Glacier National Park,Elk,summer,afternoon,high,0.48125,eligible,28
+Glacier National Park,Elk,summer,evening,high,0.9625,eligible,28
+Glacier National Park,Elk,summer,night,low,0.50625,eligible,28
+Glacier National Park,Elk,fall,unknown,low,0.4875,eligible,28
+Glacier National Park,Elk,fall,early_morning,medium,0.59375,eligible,28
+Glacier National Park,Elk,fall,morning,low,0.54375,eligible,28
+Glacier National Park,Elk,fall,afternoon,low,0.73125,eligible,28
+Glacier National Park,Elk,fall,evening,medium,0.5375,eligible,28
+Glacier National Park,Elk,fall,night,low,0.58125,eligible,28
+Glacier National Park,Gray Wolf,winter,unknown,low,0.80625,eligible,23
+Glacier National Park,Gray Wolf,winter,early_morning,low,0.64375,eligible,23
+Glacier National Park,Gray Wolf,winter,morning,low,0.63125,eligible,23
+Glacier National Park,Gray Wolf,winter,afternoon,low,0.7875,eligible,23
+Glacier National Park,Gray Wolf,winter,evening,low,0.7125,eligible,23
+Glacier National Park,Gray Wolf,winter,night,low,0.75625,eligible,23
+Glacier National Park,Gray Wolf,spring,unknown,low,0.475,eligible,23
+Glacier National Park,Gray Wolf,spring,early_morning,low,0.44375,eligible,23
+Glacier National Park,Gray Wolf,spring,morning,medium,0.6875,eligible,23
+Glacier National Park,Gray Wolf,spring,afternoon,low,0.50625,eligible,23
+Glacier National Park,Gray Wolf,spring,evening,low,0.4875,eligible,23
+Glacier National Park,Gray Wolf,spring,night,low,0.54375,eligible,23
+Glacier National Park,Gray Wolf,summer,unknown,low,0.7375,eligible,23
+Glacier National Park,Gray Wolf,summer,early_morning,medium,0.45,eligible,23
+Glacier National Park,Gray Wolf,summer,morning,low,0.71875,eligible,23
+Glacier National Park,Gray Wolf,summer,afternoon,low,0.90625,eligible,23
+Glacier National Park,Gray Wolf,summer,evening,low,0.5375,eligible,23
+Glacier National Park,Gray Wolf,summer,night,low,0.74375,eligible,23
+Glacier National Park,Gray Wolf,fall,unknown,medium,0.58125,eligible,23
+Glacier National Park,Gray Wolf,fall,early_morning,medium,0.5625,eligible,23
+Glacier National Park,Gray Wolf,fall,morning,medium,0.675,eligible,23
+Glacier National Park,Gray Wolf,fall,afternoon,medium,0.625,eligible,23
+Glacier National Park,Gray Wolf,fall,evening,medium,0.60625,eligible,23
+Glacier National Park,Gray Wolf,fall,night,low,0.5125,eligible,23
+Glacier National Park,Mountain Goat,winter,unknown,low,0.65,eligible,37
+Glacier National Park,Mountain Goat,winter,early_morning,low,0.58125,eligible,37
+Glacier National Park,Mountain Goat,winter,morning,low,0.4625,eligible,37
+Glacier National Park,Mountain Goat,winter,afternoon,low,0.58125,eligible,37
+Glacier National Park,Mountain Goat,winter,evening,low,0.61875,eligible,37
+Glacier National Park,Mountain Goat,winter,night,low,0.8375,eligible,37
+Glacier National Park,Mountain Goat,spring,unknown,low,0.5375,eligible,37
+Glacier National Park,Mountain Goat,spring,early_morning,low,0.54375,eligible,37
+Glacier National Park,Mountain Goat,spring,morning,low,0.3625,eligible,37
+Glacier National Park,Mountain Goat,spring,afternoon,low,0.475,eligible,37
+Glacier National Park,Mountain Goat,spring,evening,low,0.55,eligible,37
+Glacier National Park,Mountain Goat,spring,night,low,0.6625,eligible,37
+Glacier National Park,Mountain Goat,summer,unknown,high,0.65625,eligible,37
+Glacier National Park,Mountain Goat,summer,early_morning,high,0.475,eligible,37
+Glacier National Park,Mountain Goat,summer,morning,high,0.7125,eligible,37
+Glacier National Park,Mountain Goat,summer,afternoon,high,0.7875,eligible,37
+Glacier National Park,Mountain Goat,summer,evening,high,0.65,eligible,37
+Glacier National Park,Mountain Goat,summer,night,low,0.625,eligible,37
+Glacier National Park,Mountain Goat,fall,unknown,low,0.43125,eligible,37
+Glacier National Park,Mountain Goat,fall,early_morning,low,0.45,eligible,37
+Glacier National Park,Mountain Goat,fall,morning,low,0.41875,eligible,37
+Glacier National Park,Mountain Goat,fall,afternoon,low,0.425,eligible,37
+Glacier National Park,Mountain Goat,fall,evening,medium,0.4875,eligible,37
+Glacier National Park,Mountain Goat,fall,night,low,0.625,eligible,37
+Glacier National Park,Bighorn Sheep,winter,unknown,low,0.675,eligible,33
+Glacier National Park,Bighorn Sheep,winter,early_morning,low,0.55625,eligible,33
+Glacier National Park,Bighorn Sheep,winter,morning,low,0.5125,eligible,33
+Glacier National Park,Bighorn Sheep,winter,afternoon,low,0.64375,eligible,33
+Glacier National Park,Bighorn Sheep,winter,evening,low,0.65,eligible,33
+Glacier National Park,Bighorn Sheep,winter,night,low,0.75,eligible,33
+Glacier National Park,Bighorn Sheep,spring,unknown,low,0.575,eligible,33
+Glacier National Park,Bighorn Sheep,spring,early_morning,low,0.55625,eligible,33
+Glacier National Park,Bighorn Sheep,spring,morning,low,0.40625,eligible,33
+Glacier National Park,Bighorn Sheep,spring,afternoon,low,0.48125,eligible,33
+Glacier National Park,Bighorn Sheep,spring,evening,low,0.60625,eligible,33
+Glacier National Park,Bighorn Sheep,spring,night,low,0.64375,eligible,33
+Glacier National Park,Bighorn Sheep,summer,unknown,high,0.56875,eligible,33
+Glacier National Park,Bighorn Sheep,summer,early_morning,medium,0.63125,eligible,33
+Glacier National Park,Bighorn Sheep,summer,morning,high,0.61875,eligible,33
+Glacier National Park,Bighorn Sheep,summer,afternoon,high,0.6375,eligible,33
+Glacier National Park,Bighorn Sheep,summer,evening,high,0.65,eligible,33
+Glacier National Park,Bighorn Sheep,summer,night,low,0.63125,eligible,33
+Glacier National Park,Bighorn Sheep,fall,unknown,low,0.49375,eligible,33
+Glacier National Park,Bighorn Sheep,fall,early_morning,medium,0.475,eligible,33
+Glacier National Park,Bighorn Sheep,fall,morning,low,0.50625,eligible,33
+Glacier National Park,Bighorn Sheep,fall,afternoon,low,0.56875,eligible,33
+Glacier National Park,Bighorn Sheep,fall,evening,medium,0.49375,eligible,33
+Glacier National Park,Bighorn Sheep,fall,night,low,0.59375,eligible,33
+Glacier National Park,Bald Eagle,winter,unknown,Insufficient data,0.0,eligible,8
+Glacier National Park,Bald Eagle,winter,early_morning,Insufficient data,0.0,eligible,8
+Glacier National Park,Bald Eagle,winter,morning,Insufficient data,0.0,eligible,8
+Glacier National Park,Bald Eagle,winter,afternoon,Insufficient data,0.0,eligible,8
+Glacier National Park,Bald Eagle,winter,evening,Insufficient data,0.0,eligible,8
+Glacier National Park,Bald Eagle,winter,night,Insufficient data,0.0,eligible,8
+Glacier National Park,Bald Eagle,spring,unknown,Insufficient data,0.0,eligible,8
+Glacier National Park,Bald Eagle,spring,early_morning,Insufficient data,0.0,eligible,8
+Glacier National Park,Bald Eagle,spring,morning,Insufficient data,0.0,eligible,8
+Glacier National Park,Bald Eagle,spring,afternoon,Insufficient data,0.0,eligible,8
+Glacier National Park,Bald Eagle,spring,evening,Insufficient data,0.0,eligible,8
+Glacier National Park,Bald Eagle,spring,night,Insufficient data,0.0,eligible,8
+Glacier National Park,Bald Eagle,summer,unknown,Insufficient data,0.0,eligible,8
+Glacier National Park,Bald Eagle,summer,early_morning,Insufficient data,0.0,eligible,8
+Glacier National Park,Bald Eagle,summer,morning,Insufficient data,0.0,eligible,8
+Glacier National Park,Bald Eagle,summer,afternoon,Insufficient data,0.0,eligible,8
+Glacier National Park,Bald Eagle,summer,evening,Insufficient data,0.0,eligible,8
+Glacier National Park,Bald Eagle,summer,night,Insufficient data,0.0,eligible,8
+Glacier National Park,Bald Eagle,fall,unknown,Insufficient data,0.0,eligible,8
+Glacier National Park,Bald Eagle,fall,early_morning,Insufficient data,0.0,eligible,8
+Glacier National Park,Bald Eagle,fall,morning,Insufficient data,0.0,eligible,8
+Glacier National Park,Bald Eagle,fall,afternoon,Insufficient data,0.0,eligible,8
+Glacier National Park,Bald Eagle,fall,evening,Insufficient data,0.0,eligible,8
+Glacier National Park,Bald Eagle,fall,night,Insufficient data,0.0,eligible,8
+Glacier National Park,Coyote,winter,unknown,Insufficient data,0.0,eligible,9
+Glacier National Park,Coyote,winter,early_morning,Insufficient data,0.0,eligible,9
+Glacier National Park,Coyote,winter,morning,Insufficient data,0.0,eligible,9
+Glacier National Park,Coyote,winter,afternoon,Insufficient data,0.0,eligible,9
+Glacier National Park,Coyote,winter,evening,Insufficient data,0.0,eligible,9
+Glacier National Park,Coyote,winter,night,Insufficient data,0.0,eligible,9
+Glacier National Park,Coyote,spring,unknown,Insufficient data,0.0,eligible,9
+Glacier National Park,Coyote,spring,early_morning,Insufficient data,0.0,eligible,9
+Glacier National Park,Coyote,spring,morning,Insufficient data,0.0,eligible,9
+Glacier National Park,Coyote,spring,afternoon,Insufficient data,0.0,eligible,9
+Glacier National Park,Coyote,spring,evening,Insufficient data,0.0,eligible,9
+Glacier National Park,Coyote,spring,night,Insufficient data,0.0,eligible,9
+Glacier National Park,Coyote,summer,unknown,Insufficient data,0.0,eligible,9
+Glacier National Park,Coyote,summer,early_morning,Insufficient data,0.0,eligible,9
+Glacier National Park,Coyote,summer,morning,Insufficient data,0.0,eligible,9
+Glacier National Park,Coyote,summer,afternoon,Insufficient data,0.0,eligible,9
+Glacier National Park,Coyote,summer,evening,Insufficient data,0.0,eligible,9
+Glacier National Park,Coyote,summer,night,Insufficient data,0.0,eligible,9
+Glacier National Park,Coyote,fall,unknown,Insufficient data,0.0,eligible,9
+Glacier National Park,Coyote,fall,early_morning,Insufficient data,0.0,eligible,9
+Glacier National Park,Coyote,fall,morning,Insufficient data,0.0,eligible,9
+Glacier National Park,Coyote,fall,afternoon,Insufficient data,0.0,eligible,9
+Glacier National Park,Coyote,fall,evening,Insufficient data,0.0,eligible,9
+Glacier National Park,Coyote,fall,night,Insufficient data,0.0,eligible,9
+Olympic National Park,Black Bear,winter,unknown,low,0.4,eligible,34
+Olympic National Park,Black Bear,winter,early_morning,low,0.55625,eligible,34
+Olympic National Park,Black Bear,winter,morning,low,0.4125,eligible,34
+Olympic National Park,Black Bear,winter,afternoon,high,0.525,eligible,34
+Olympic National Park,Black Bear,winter,evening,high,0.3875,eligible,34
+Olympic National Park,Black Bear,winter,night,low,0.48125,eligible,34
+Olympic National Park,Black Bear,spring,unknown,low,0.4,eligible,34
+Olympic National Park,Black Bear,spring,early_morning,low,0.58125,eligible,34
+Olympic National Park,Black Bear,spring,morning,low,0.55,eligible,34
+Olympic National Park,Black Bear,spring,afternoon,high,0.5625,eligible,34
+Olympic National Park,Black Bear,spring,evening,medium,0.5125,eligible,34
+Olympic National Park,Black Bear,spring,night,low,0.4375,eligible,34
+Olympic National Park,Black Bear,summer,unknown,high,0.7375,eligible,34
+Olympic National Park,Black Bear,summer,early_morning,low,0.39375,eligible,34
+Olympic National Park,Black Bear,summer,morning,high,0.5625,eligible,34
+Olympic National Park,Black Bear,summer,afternoon,high,0.99375,eligible,34
+Olympic National Park,Black Bear,summer,evening,high,0.95625,eligible,34
+Olympic National Park,Black Bear,summer,night,low,0.61875,eligible,34
+Olympic National Park,Black Bear,fall,unknown,medium,0.54375,eligible,34
+Olympic National Park,Black Bear,fall,early_morning,medium,0.46875,eligible,34
+Olympic National Park,Black Bear,fall,morning,medium,0.4375,eligible,34
+Olympic National Park,Black Bear,fall,afternoon,medium,0.59375,eligible,34
+Olympic National Park,Black Bear,fall,evening,medium,0.64375,eligible,34
+Olympic National Park,Black Bear,fall,night,medium,0.4125,eligible,34
+Olympic National Park,Mountain Goat,winter,unknown,low,0.39375,eligible,39
+Olympic National Park,Mountain Goat,winter,early_morning,low,0.59375,eligible,39
+Olympic National Park,Mountain Goat,winter,morning,high,0.3875,eligible,39
+Olympic National Park,Mountain Goat,winter,afternoon,high,0.44375,eligible,39
+Olympic National Park,Mountain Goat,winter,evening,high,0.4375,eligible,39
+Olympic National Park,Mountain Goat,winter,night,low,0.54375,eligible,39
+Olympic National Park,Mountain Goat,spring,unknown,high,0.35625,eligible,39
+Olympic National Park,Mountain Goat,spring,early_morning,low,0.6125,eligible,39
+Olympic National Park,Mountain Goat,spring,morning,high,0.41875,eligible,39
+Olympic National Park,Mountain Goat,spring,afternoon,high,0.4375,eligible,39
+Olympic National Park,Mountain Goat,spring,evening,high,0.4375,eligible,39
+Olympic National Park,Mountain Goat,spring,night,low,0.475,eligible,39
+Olympic National Park,Mountain Goat,summer,unknown,high,0.66875,eligible,39
+Olympic National Park,Mountain Goat,summer,early_morning,low,0.4,eligible,39
+Olympic National Park,Mountain Goat,summer,morning,high,0.5125,eligible,39
+Olympic National Park,Mountain Goat,summer,afternoon,high,0.925,eligible,39
+Olympic National Park,Mountain Goat,summer,evening,high,0.88125,eligible,39
+Olympic National Park,Mountain Goat,summer,night,low,0.625,eligible,39
+Olympic National Park,Mountain Goat,fall,unknown,medium,0.4625,eligible,39
+Olympic National Park,Mountain Goat,fall,early_morning,low,0.4875,eligible,39
+Olympic National Park,Mountain Goat,fall,morning,medium,0.375,eligible,39
+Olympic National Park,Mountain Goat,fall,afternoon,medium,0.4625,eligible,39
+Olympic National Park,Mountain Goat,fall,evening,medium,0.5375,eligible,39
+Olympic National Park,Mountain Goat,fall,night,low,0.50625,eligible,39
+Olympic National Park,Bald Eagle,winter,unknown,high,0.48125,eligible,54
+Olympic National Park,Bald Eagle,winter,early_morning,low,0.5125,eligible,54
+Olympic National Park,Bald Eagle,winter,morning,high,0.6375,eligible,54
+Olympic National Park,Bald Eagle,winter,afternoon,high,0.625,eligible,54
+Olympic National Park,Bald Eagle,winter,evening,high,0.5875,eligible,54
+Olympic National Park,Bald Eagle,winter,night,medium,0.55625,eligible,54
+Olympic National Park,Bald Eagle,spring,unknown,high,0.63125,eligible,54
+Olympic National Park,Bald Eagle,spring,early_morning,low,0.5875,eligible,54
+Olympic National Park,Bald Eagle,spring,morning,high,0.69375,eligible,54
+Olympic National Park,Bald Eagle,spring,afternoon,high,0.7625,eligible,54
+Olympic National Park,Bald Eagle,spring,evening,high,0.75625,eligible,54
+Olympic National Park,Bald Eagle,spring,night,high,0.5625,eligible,54
+Olympic National Park,Bald Eagle,summer,unknown,high,0.5875,eligible,54
+Olympic National Park,Bald Eagle,summer,early_morning,low,0.40625,eligible,54
+Olympic National Park,Bald Eagle,summer,morning,high,0.53125,eligible,54
+Olympic National Park,Bald Eagle,summer,afternoon,high,0.71875,eligible,54
+Olympic National Park,Bald Eagle,summer,evening,high,0.81875,eligible,54
+Olympic National Park,Bald Eagle,summer,night,low,0.56875,eligible,54
+Olympic National Park,Bald Eagle,fall,unknown,medium,0.35625,eligible,54
+Olympic National Park,Bald Eagle,fall,early_morning,low,0.5,eligible,54
+Olympic National Park,Bald Eagle,fall,morning,high,0.425,eligible,54
+Olympic National Park,Bald Eagle,fall,afternoon,high,0.4,eligible,54
+Olympic National Park,Bald Eagle,fall,evening,medium,0.4,eligible,54
+Olympic National Park,Bald Eagle,fall,night,medium,0.4,eligible,54
+Olympic National Park,Coyote,winter,unknown,low,0.5625,eligible,15
+Olympic National Park,Coyote,winter,early_morning,low,0.74375,eligible,15
+Olympic National Park,Coyote,winter,morning,high,0.40625,eligible,15
+Olympic National Park,Coyote,winter,afternoon,medium,0.375,eligible,15
+Olympic National Park,Coyote,winter,evening,low,0.49375,eligible,15
+Olympic National Park,Coyote,winter,night,low,0.775,eligible,15
+Olympic National Park,Coyote,spring,unknown,low,0.575,eligible,15
+Olympic National Park,Coyote,spring,early_morning,low,0.8375,eligible,15
+Olympic National Park,Coyote,spring,morning,low,0.5,eligible,15
+Olympic National Park,Coyote,spring,afternoon,high,0.36875,eligible,15
+Olympic National Park,Coyote,spring,evening,low,0.4625,eligible,15
+Olympic National Park,Coyote,spring,night,low,0.6875,eligible,15
+Olympic National Park,Coyote,summer,unknown,low,0.5625,eligible,15
+Olympic National Park,Coyote,summer,early_morning,low,0.69375,eligible,15
+Olympic National Park,Coyote,summer,morning,low,0.46875,eligible,15
+Olympic National Park,Coyote,summer,afternoon,high,0.58125,eligible,15
+Olympic National Park,Coyote,summer,evening,low,0.46875,eligible,15
+Olympic National Park,Coyote,summer,night,low,0.825,eligible,15
+Olympic National Park,Coyote,fall,unknown,low,0.69375,eligible,15
+Olympic National Park,Coyote,fall,early_morning,low,0.84375,eligible,15
+Olympic National Park,Coyote,fall,morning,low,0.575,eligible,15
+Olympic National Park,Coyote,fall,afternoon,low,0.5625,eligible,15
+Olympic National Park,Coyote,fall,evening,low,0.61875,eligible,15
+Olympic National Park,Coyote,fall,night,low,0.7625,eligible,15
+Mount Rainier National Park,Black Bear,winter,unknown,high,0.45,eligible,51
+Mount Rainier National Park,Black Bear,winter,early_morning,low,0.5,eligible,51
+Mount Rainier National Park,Black Bear,winter,morning,high,0.6,eligible,51
+Mount Rainier National Park,Black Bear,winter,afternoon,high,0.6,eligible,51
+Mount Rainier National Park,Black Bear,winter,evening,high,0.45,eligible,51
+Mount Rainier National Park,Black Bear,winter,night,low,0.51875,eligible,51
+Mount Rainier National Park,Black Bear,spring,unknown,low,0.46875,eligible,51
+Mount Rainier National Park,Black Bear,spring,early_morning,low,0.59375,eligible,51
+Mount Rainier National Park,Black Bear,spring,morning,high,0.5125,eligible,51
+Mount Rainier National Park,Black Bear,spring,afternoon,high,0.525,eligible,51
+Mount Rainier National Park,Black Bear,spring,evening,low,0.4,eligible,51
+Mount Rainier National Park,Black Bear,spring,night,low,0.55,eligible,51
+Mount Rainier National Park,Black Bear,summer,unknown,high,0.88125,eligible,51
+Mount Rainier National Park,Black Bear,summer,early_morning,high,0.41875,eligible,51
+Mount Rainier National Park,Black Bear,summer,morning,high,1.0,eligible,51
+Mount Rainier National Park,Black Bear,summer,afternoon,high,1.0,eligible,51
+Mount Rainier National Park,Black Bear,summer,evening,high,1.0,eligible,51
+Mount Rainier National Park,Black Bear,summer,night,high,0.55,eligible,51
+Mount Rainier National Park,Black Bear,fall,unknown,high,0.49375,eligible,51
+Mount Rainier National Park,Black Bear,fall,early_morning,medium,0.50625,eligible,51
+Mount Rainier National Park,Black Bear,fall,morning,high,0.475,eligible,51
+Mount Rainier National Park,Black Bear,fall,afternoon,high,0.8,eligible,51
+Mount Rainier National Park,Black Bear,fall,evening,high,0.50625,eligible,51
+Mount Rainier National Park,Black Bear,fall,night,low,0.4,eligible,51
+Mount Rainier National Park,Elk,winter,unknown,high,0.44375,eligible,47
+Mount Rainier National Park,Elk,winter,early_morning,medium,0.44375,eligible,47
+Mount Rainier National Park,Elk,winter,morning,high,0.5625,eligible,47
+Mount Rainier National Park,Elk,winter,afternoon,high,0.53125,eligible,47
+Mount Rainier National Park,Elk,winter,evening,low,0.475,eligible,47
+Mount Rainier National Park,Elk,winter,night,low,0.66875,eligible,47
+Mount Rainier National Park,Elk,spring,unknown,low,0.5625,eligible,47
+Mount Rainier National Park,Elk,spring,early_morning,low,0.64375,eligible,47
+Mount Rainier National Park,Elk,spring,morning,low,0.5875,eligible,47
+Mount Rainier National Park,Elk,spring,afternoon,high,0.50625,eligible,47
+Mount Rainier National Park,Elk,spring,evening,low,0.46875,eligible,47
+Mount Rainier National Park,Elk,spring,night,low,0.75625,eligible,47
+Mount Rainier National Park,Elk,summer,unknown,high,0.73125,eligible,47
+Mount Rainier National Park,Elk,summer,early_morning,medium,0.775,eligible,47
+Mount Rainier National Park,Elk,summer,morning,high,0.79375,eligible,47
+Mount Rainier National Park,Elk,summer,afternoon,high,0.89375,eligible,47
+Mount Rainier National Park,Elk,summer,evening,high,0.96875,eligible,47
+Mount Rainier National Park,Elk,summer,night,low,0.7875,eligible,47
+Mount Rainier National Park,Elk,fall,unknown,high,0.51875,eligible,47
+Mount Rainier National Park,Elk,fall,early_morning,medium,0.81875,eligible,47
+Mount Rainier National Park,Elk,fall,morning,high,0.85,eligible,47
+Mount Rainier National Park,Elk,fall,afternoon,high,0.60625,eligible,47
+Mount Rainier National Park,Elk,fall,evening,high,0.46875,eligible,47
+Mount Rainier National Park,Elk,fall,night,low,0.55625,eligible,47
+Mount Rainier National Park,Mountain Goat,winter,unknown,low,0.3875,eligible,52
+Mount Rainier National Park,Mountain Goat,winter,early_morning,low,0.4875,eligible,52
+Mount Rainier National Park,Mountain Goat,winter,morning,high,0.5,eligible,52
+Mount Rainier National Park,Mountain Goat,winter,afternoon,high,0.43125,eligible,52
+Mount Rainier National Park,Mountain Goat,winter,evening,high,0.36875,eligible,52
+Mount Rainier National Park,Mountain Goat,winter,night,low,0.625,eligible,52
+Mount Rainier National Park,Mountain Goat,spring,unknown,low,0.36875,eligible,52
+Mount Rainier National Park,Mountain Goat,spring,early_morning,low,0.5375,eligible,52
+Mount Rainier National Park,Mountain Goat,spring,morning,high,0.375,eligible,52
+Mount Rainier National Park,Mountain Goat,spring,afternoon,medium,0.49375,eligible,52
+Mount Rainier National Park,Mountain Goat,spring,evening,medium,0.35625,eligible,52
+Mount Rainier National Park,Mountain Goat,spring,night,low,0.58125,eligible,52
+Mount Rainier National Park,Mountain Goat,summer,unknown,high,0.78125,eligible,52
+Mount Rainier National Park,Mountain Goat,summer,early_morning,high,0.49375,eligible,52
+Mount Rainier National Park,Mountain Goat,summer,morning,high,0.84375,eligible,52
+Mount Rainier National Park,Mountain Goat,summer,afternoon,high,0.9125,eligible,52
+Mount Rainier National Park,Mountain Goat,summer,evening,high,0.8875,eligible,52
+Mount Rainier National Park,Mountain Goat,summer,night,low,0.6375,eligible,52
+Mount Rainier National Park,Mountain Goat,fall,unknown,medium,0.425,eligible,52
+Mount Rainier National Park,Mountain Goat,fall,early_morning,medium,0.49375,eligible,52
+Mount Rainier National Park,Mountain Goat,fall,morning,high,0.525,eligible,52
+Mount Rainier National Park,Mountain Goat,fall,afternoon,high,0.55625,eligible,52
+Mount Rainier National Park,Mountain Goat,fall,evening,medium,0.45,eligible,52
+Mount Rainier National Park,Mountain Goat,fall,night,low,0.55,eligible,52
+Mount Rainier National Park,Coyote,winter,unknown,Insufficient data,0.0,eligible,3
+Mount Rainier National Park,Coyote,winter,early_morning,Insufficient data,0.0,eligible,3
+Mount Rainier National Park,Coyote,winter,morning,Insufficient data,0.0,eligible,3
+Mount Rainier National Park,Coyote,winter,afternoon,Insufficient data,0.0,eligible,3
+Mount Rainier National Park,Coyote,winter,evening,Insufficient data,0.0,eligible,3
+Mount Rainier National Park,Coyote,winter,night,Insufficient data,0.0,eligible,3
+Mount Rainier National Park,Coyote,spring,unknown,Insufficient data,0.0,eligible,3
+Mount Rainier National Park,Coyote,spring,early_morning,Insufficient data,0.0,eligible,3
+Mount Rainier National Park,Coyote,spring,morning,Insufficient data,0.0,eligible,3
+Mount Rainier National Park,Coyote,spring,afternoon,Insufficient data,0.0,eligible,3
+Mount Rainier National Park,Coyote,spring,evening,Insufficient data,0.0,eligible,3
+Mount Rainier National Park,Coyote,spring,night,Insufficient data,0.0,eligible,3
+Mount Rainier National Park,Coyote,summer,unknown,Insufficient data,0.0,eligible,3
+Mount Rainier National Park,Coyote,summer,early_morning,Insufficient data,0.0,eligible,3
+Mount Rainier National Park,Coyote,summer,morning,Insufficient data,0.0,eligible,3
+Mount Rainier National Park,Coyote,summer,afternoon,Insufficient data,0.0,eligible,3
+Mount Rainier National Park,Coyote,summer,evening,Insufficient data,0.0,eligible,3
+Mount Rainier National Park,Coyote,summer,night,Insufficient data,0.0,eligible,3
+Mount Rainier National Park,Coyote,fall,unknown,Insufficient data,0.0,eligible,3
+Mount Rainier National Park,Coyote,fall,early_morning,Insufficient data,0.0,eligible,3
+Mount Rainier National Park,Coyote,fall,morning,Insufficient data,0.0,eligible,3
+Mount Rainier National Park,Coyote,fall,afternoon,Insufficient data,0.0,eligible,3
+Mount Rainier National Park,Coyote,fall,evening,Insufficient data,0.0,eligible,3
+Mount Rainier National Park,Coyote,fall,night,Insufficient data,0.0,eligible,3

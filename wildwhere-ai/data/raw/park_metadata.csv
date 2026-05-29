@@ -1,0 +1,6 @@
+park_code,park_name,state,latitude,longitude,area_acres,source
+YELL,Yellowstone National Park,WY/MT/ID,44.428,-110.5885,2219790.71,National Park Service Data API / official NPS park metadata
+GRTE,Grand Teton National Park,WY,43.7904,-110.6818,310044.36,National Park Service Data API / official NPS park metadata
+GLAC,Glacier National Park,MT,48.7596,-113.787,1013126.39,National Park Service Data API / official NPS park metadata
+OLYM,Olympic National Park,WA,47.8021,-123.6044,922649.41,National Park Service Data API / official NPS park metadata
+MORA,Mount Rainier National Park,WA,46.8797,-121.7269,236381.64,National Park Service Data API / official NPS park metadata
